@@ -19,6 +19,9 @@ zielHGB <- paste(pfadZiel, "HGBalsCSV.csv", sep="\\")
 pfadMaRisk <- paste(pfadStart, "20240618_MaRisk_AlsExcel_mitQV_v0.1.xlsx", sep="\\")
 zielMaRisk <- paste(pfadZiel, "MaRISKalsCSV.csv", sep="\\")
 
+pfadDORA <- paste(pfadStart, "20240912_DORA_AlsExcel_v0.1.xlsx", sep="\\")
+zielDORA <- paste(pfadZiel, "DORAalsCSV.csv", sep="\\")
+
 zielToKWG <- paste(pfadZiel, "MaRISKtoKwgCSV.csv", sep="\\")
 zielToKAGB <- paste(pfadZiel, "MaRISKtoKagbCSV.csv", sep="\\")
 zielToWPHG <- paste(pfadZiel, "MaRISKtoWphgCSV.csv", sep="\\")
@@ -187,6 +190,16 @@ marisk <- cbind(index, wortlaut, referenz)
 colnames(marisk) <- c("mariskIndex", "mariskWortlaut", "mariskReferenz")
 
 write.csv(marisk, zielMaRisk)
+
+#-------------------dann das DORA in CSV umwandeln--------------------------------------------------------
+
+dora <- read_excel(pfadDORA)
+index <- paste(dora$`DORA: Artikel`, ", Abs:", dora$`DORA: Absatz`, sep="")
+wortlaut <- gsub("\r\n", " ", dora$`DORA: Anforderung aus Digital Operational Resilience Act (VERORDNUNG (EU) 2022/2554 DES EUROPÄISCHEN PARLAMENTS UND DES RATES vom 14. Dezember 2022) (Volltext)`)
+dora <- cbind(index, wortlaut)
+colnames(dora) <- c("doraIndex", "dorakWortlaut")
+
+write.csv(dora, zielDORA)
 
 #------------------Relations in files legen----------------------------------------------------------------
 #MaRisk
