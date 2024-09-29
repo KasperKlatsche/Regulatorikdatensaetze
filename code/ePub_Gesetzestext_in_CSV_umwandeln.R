@@ -26,6 +26,7 @@ zielToKWG <- paste(pfadZiel, "MaRISKtoKwgCSV.csv", sep="\\")
 zielToKAGB <- paste(pfadZiel, "MaRISKtoKagbCSV.csv", sep="\\")
 zielToWPHG <- paste(pfadZiel, "MaRISKtoWphgCSV.csv", sep="\\")
 zielToHGB <- paste(pfadZiel, "MaRISKtoHgbCSV.csv", sep="\\")
+zielToDORA <- paste(pfadZiel, "DORAtoDORA.csv", sep="\\")
 
 #-------------------zuerst das KWG in CSV umwandeln--------------------------------------------------------
 
@@ -194,14 +195,14 @@ write.csv(marisk, zielMaRisk)
 #-------------------dann das DORA in CSV umwandeln--------------------------------------------------------
 
 dora <- read_excel(pfadDORA)
-index <- paste(dora$`DORA: Artikel`, ", Abs:", dora$`DORA: Absatz`, sep="")
+index <- paste("Art ", dora$`DORA-Artikel-Nummer`, ", Abs ", dora$`DORA: Absatz`, sep="")
 wortlaut <- gsub("\r\n", " ", dora$`DORA: Anforderung aus Digital Operational Resilience Act (VERORDNUNG (EU) 2022/2554 DES EUROPÄISCHEN PARLAMENTS UND DES RATES vom 14. Dezember 2022) (Volltext)`)
-dora <- cbind(index, wortlaut)
-colnames(dora) <- c("doraIndex", "dorakWortlaut")
+dora <- data.frame(index, wortlaut, dora$Referenz)
+colnames(dora) <- c("doraIndex", "dorakWortlaut", "doraReferenz")
 
 write.csv(dora, zielDORA)
 
-#------------------Relations in files legen----------------------------------------------------------------
+#------------------Relations MaRisk in files legen----------------------------------------------------------------
 #MaRisk
 relMARISK <- strsplit(marisk[,3], "; ") #relations aufgetrennt
 indexMARISK <- marisk[,1]
@@ -252,3 +253,21 @@ write.csv(toKWG, zielToKWG)
 write.csv(toWPHG, zielToWPHG)
 write.csv(toKAGB, zielToKAGB)
 write.csv(toHGB, zielToHGB)
+
+#------------------Relations DORA in files legen----------------------------------------------------------------
+relDORA <- strsplit(dora[,3], "; ") #relations aufgetrennt
+indexDORA <- dora[,1]
+relationsDORA <- data.frame(from = character(0), to = character(0), stringsAsFactors = FALSE)
+
+for(i in 1:length(indexDORA)){
+  if(is.na(relDORA[[i]][1])) next #wenn es keine relation gibt, dann nächster bitte
+  for(j in relDORA[[i]]) {
+    alleZiele <- dora$doraIndex[grepl(j, dora$doraIndex) | dora$doraIndex == j]
+    if(length(alleZiele) == 0) next
+    neueZeilen <- cbind(dora[i,1], alleZiele)
+    relationsDORA <- rbind(relationsDORA, neueZeilen)
+  }
+}
+
+names(relationsDORA) <- c("fromDORA", "toDORA")
+write.csv(relationsDORA, zielToDORA)
