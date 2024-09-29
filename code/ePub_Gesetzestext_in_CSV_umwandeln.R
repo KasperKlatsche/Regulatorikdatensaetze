@@ -198,7 +198,7 @@ dora <- read_excel(pfadDORA)
 index <- paste("Art ", dora$`DORA-Artikel-Nummer`, ", Abs ", dora$`DORA: Absatz`, sep="")
 wortlaut <- gsub("\r\n", " ", dora$`DORA: Anforderung aus Digital Operational Resilience Act (VERORDNUNG (EU) 2022/2554 DES EUROPÄISCHEN PARLAMENTS UND DES RATES vom 14. Dezember 2022) (Volltext)`)
 dora <- data.frame(index, wortlaut, dora$Referenz)
-colnames(dora) <- c("doraIndex", "dorakWortlaut", "doraReferenz")
+colnames(dora) <- c("doraIndex", "doraWortlaut", "doraReferenz")
 
 write.csv(dora, zielDORA)
 
