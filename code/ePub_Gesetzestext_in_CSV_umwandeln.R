@@ -22,11 +22,16 @@ zielMaRisk <- paste(pfadZiel, "MaRISKalsCSV.csv", sep="\\")
 pfadDORA <- paste(pfadStart, "20240912_DORA_AlsExcel_v0.1.xlsx", sep="\\")
 zielDORA <- paste(pfadZiel, "DORAalsCSV.csv", sep="\\")
 
+pfadISO <- paste(pfadStart, "20250507_ISO27001 & ISO27002_AlsExcel.xlsx", sep="\\")
+zielISO01 <- paste(pfadZiel, "ISO27001alsCSV.csv", sep="\\")
+zielISO02 <- paste(pfadZiel, "ISO27002alsCSV.csv", sep="\\")
+
 zielToKWG <- paste(pfadZiel, "MaRISKtoKwgCSV.csv", sep="\\")
 zielToKAGB <- paste(pfadZiel, "MaRISKtoKagbCSV.csv", sep="\\")
 zielToWPHG <- paste(pfadZiel, "MaRISKtoWphgCSV.csv", sep="\\")
 zielToHGB <- paste(pfadZiel, "MaRISKtoHgbCSV.csv", sep="\\")
 zielToDORA <- paste(pfadZiel, "DORAtoDORA.csv", sep="\\")
+zielToISO02 <- paste(pfadZiel, "ISO27002toISO27002.csv", sep="\\")
 
 #-------------------zuerst das KWG in CSV umwandeln--------------------------------------------------------
 
@@ -271,3 +276,46 @@ for(i in 1:length(indexDORA)){
 
 names(relationsDORA) <- c("fromDORA", "toDORA")
 write.csv(relationsDORA, zielToDORA)
+
+#-------------------jetzt ISO27001 und ISO27002 in CSV transferieren---------------------------------------------
+
+iso <- read_excel(pfadISO)
+nameISO27001 <- "ISO/IEC 27001:2022, Edition 3"
+nameISO27002 <- "ISO/IEC 27002:2017-06"
+zeilenISO27001 <- iso$`Authority document`==nameISO27001 & !is.na(iso$`Authority document`)
+zeilenISO27002 <- iso$`Authority document`==nameISO27002 & !is.na(iso$`Authority document`)
+iso01 <- data.frame(
+  iso$`Authority section`[zeilenISO27001], 
+  iso$Description[zeilenISO27001],
+  iso$`Authority document`[zeilenISO27001],
+  iso$Referenz[zeilenISO27001]
+  )
+names(iso01) <- c("iso27001Index", "iso27001Wortlaut", "iso27001Dokument", "iso27001Referenz")
+iso02 <- data.frame(
+  iso$`Authority section`[zeilenISO27002], 
+  iso$Description[zeilenISO27002],
+  iso$`Authority document`[zeilenISO27002],
+  iso$Referenz[zeilenISO27002]
+)
+names(iso02) <- c("iso27002Index", "iso27002Wortlaut", "iso27002Dokument", "iso27002Referenz")
+
+write.csv(iso01, zielISO01)
+write.csv(iso02, zielISO02)
+
+#------------------Relations ISO27002 in files legen----------------------------------------------------------------
+relISO <- strsplit(iso02[,4], ";") #relations aufgetrennt
+indexISO <- iso02[,1]
+relationsISO <- data.frame(from = character(0), to = character(0), stringsAsFactors = FALSE)
+
+for(i in 1:length(indexISO)){
+  if(is.na(relISO[[i]][1])) next #wenn es keine relation gibt, dann nächster bitte
+  for(j in relISO[[i]]) {
+    alleZiele <- iso02$iso27002Index[grepl(j, iso02$iso27002Index) | iso02$iso27002Index == j]
+    if(length(alleZiele) == 0) next
+    neueZeilen <- cbind(iso02[i,1], alleZiele)
+    relationsISO <- rbind(relationsISO, neueZeilen)
+  }
+}
+
+names(relationsISO) <- c("fromISO27002", "toISO27002")
+write.csv(relationsISO, zielToISO02)

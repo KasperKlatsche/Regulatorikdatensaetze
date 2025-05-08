@@ -1,0 +1,927 @@
+"","iso27002Index","iso27002Wortlaut","iso27002Dokument","iso27002Referenz"
+"1","5.1","Die Organisation sollte auf höchster Ebene eine „Informationssicherheitspolitik“ definieren, die von der obersten Leitung genehmigt ist und einen Ansatz zur Bewältigung der Informationssicherheit festlegt.
+Die Informationssicherheitspolitik sollte die Anforderungen berücksichtigen, die sich aus folgenden Punkten ergeben:
+a) Geschäftsstrategie und Anforderungen;
+b) Vorschriften, Gesetze und Verträge;
+c) die aktuellen und voraussichtlichen Informationssicherheitsrisiken und -bedrohungen.                                                                                                                                                                                                   
+Die Informationssicherheitspolitik sollte Aussagen enthalten über:
+a) Definition der Informationssicherheit;
+b) Informationssicherheitsziele oder den Rahmen zum Festlegen von Informationssicherheitszielen;
+c) Grundsätze, um alle Aktivitäten in Bezug auf Informationssicherheit lenken zu können;
+d) Verpflichtung zur Erfüllung zutreffender Anforderungen mit Bezug zur Informationssicherheit;
+e) Verpflichtung zur fortlaufenden Verbesserung des Informationssicherheitsmanagementsystems;
+f) Zuordnung von Verantwortlichkeiten zu definierten Rollen für die Handhabung von Informationssicherheit;
+g) Verfahren für den Umgang mit Befreiungen und Ausnahmen.
+Die oberste Leitung sollte alle Änderungen an der Informationssicherheitspolitik genehmigen.
+Auf tieferer Ebene sollte die Informationssicherheitspolitik bei Bedarf durch themenspezifische Richtlinien unterstützt werden, die zusätzlich die Umsetzung von Maßnahmen zur Informationssicherheit anordnen. Themenspezifische Richtlinien sind in der Regel so aufgebaut, dass die Bedürfnisse gewisser Zielgruppen einer Organisation angesprochen oder bestimmte Sicherheitsbereiche abgedeckt werden. Themenspezifische Richtlinien sollten auf die Informationssicherheitspolitik der Organisation abgestimmt sein und diese ergänzen.
+Beispiele für solche Themen sind unter anderen:
+a) Zugangssteuerung;
+b) physische und umgebungsbezogene Sicherheit;
+c) Verwaltung der Werte;
+d) Informationsübertragung;
+e) sichere Konfiguration und Handhabung von Benutzerendpunktgeräten;
+f) Netzwerksicherheit;
+g) Handhabung von Informationssicherheitsvorfällen;
+h) Datensicherung;
+i) Kryptographie und Schlüsselverwaltung;
+j) Informationsklassifizierung und deren Handhabung;
+k) Handhabung von technischen Schwachstellen;
+l) sichere Entwicklung.
+Die Verantwortung für die Entwicklung, Überprüfung und Genehmigung der themenspezifischen Richtlinien sollte dem zuständigen Personal auf der Grundlage seiner entsprechenden Befugnisse und fachlichen Kompetenz übertragen werden. Die Überprüfung sollte eine Bewertung von Möglichkeiten zur Verbesserung der Informationssicherheitspolitik der Organisation und themenspezifischer Richtlinien sowie die Verwaltung der Informationssicherheit als Reaktion auf Änderungen bei Folgendem umfassen:
+a) der Geschäftsstrategie des Unternehmens;
+b) dem technischen Umfeld der Organisation;
+c) Vorschriften, Satzungen, Gesetze und Verträge;
+d) Informationssicherheitsrisiken;
+e) dem aktuellen und voraussichtlichen Bedrohungsumfeld der Informationssicherheit;
+f) Lehren aus Informationssicherheitsereignissen und -vorfällen im Bereich der Informationssicherheit.
+
+Bei der Überprüfung der Informationssicherheitspolitik und der themenspezifischen Richtlinien sollten die Ergebnisse von Managementprüfungen und Audits berücksichtigt werden. Die Überprüfung und Aktualisierung anderer damit zusammenhängender Richtlinien sollten in Betracht gezogen werden, wenn eine Richtlinie geändert wird, um die Konsistenz zu wahren.
+Die Informationssicherheitspolitik und die themenspezifischen Richtlinien sollten dem zuständigen Personal und den interessierten Kreisen in einer Form mitgeteilt werden, die relevant, zugänglich und für den vorgesehenen Leser verständlich ist. Von den Empfängern der Richtlinien sollte verlangt werden, dass sie bestätigen, die Richtlinien verstanden zu haben und sie gegebenenfalls einzuhalten. Die Organisation kann die Formate und Bezeichnungen dieser Richtliniendokumente festlegen, die ihren Bedürfnissen entsprechen. In einigen Organisationen können die Informationssicherheitspolitik und die themenspezifischen Richtlinien in einem einzigen Dokument zusammengefasst werden. Die Organisation kann diese themenspezifischen Richtlinien als Normen, Direktiven, Richtlinien oder anders bezeichnen.
+Wird die Informationssicherheitspolitik oder eine themenspezifische Richtlinie außerhalb der Organisation verbreitet, sollte darauf geachtet werden, dass vertrauliche Informationen nicht missbräuchlich weitergegeben werden.
+
+Weitere Informationen
+Themenspezifische Richtlinien können von Organisation zu Organisation unterschiedlich sein.","ISO/IEC 27002:2017-06",NA
+"2","5.2","Die Zuweisung von Rollen und Verantwortlichkeiten im Bereich der Informationssicherheit sollte in Übereinstimmung mit der Informationssicherheitspolitik und den themenspezifischen Richtlinien erfolgen (siehe 5.1). Die Organisation sollte Verantwortlichkeiten für folgende Bereiche festlegen und verwalten:
+a) Schutz von Informationen und anderen damit verbundenen Werten;
+b) Durchführung spezifischer Verfahren der Informationssicherheit;
+c) Risikomanagementaktivitäten im Bereich der Informationssicherheit und insbesondere die Übernahme von Restrisiken (z. B. gegenüber den Risikoverantwortlichen);
+d) das gesamte Personal nutzt die Informationen einer Organisation und andere damit verbundene Werte.
+Diese Verantwortlichkeiten sollten soweit erforderlich um detaillierte Anleitungen für bestimmte Standorte und Einrichtungen der Informationsverarbeitung erweitert werden. Personen mit zugeordneten Verantwortlichkeiten für Informationssicherheit können anderen Sicherheitsaufgaben zuweisen. Jedoch bleiben sie rechenschaftspflichtig und sollten feststellen, ob alle übertragenen Aufgaben ordnungsgemäß durchgeführt wurden.
+Jeder Sicherheitsbereich, für den einzelne Personen verantwortlich sind, sollte definiert, dokumentiert und kommuniziert werden. Berechtigungsebenen sollten definiert und dokumentiert werden. Personen, die eine bestimmte Aufgabe im Bereich der Informationssicherheit übernehmen, sollten über die für diese Aufgabe erforderlichen Kenntnisse und Fähigkeiten verfügen und dabei unterstützt werden, sich über die Entwicklungen auf dem Laufenden zu halten, die mit dieser Aufgabe zusammenhängen und für die Erfüllung der mit dieser Rolle verbundenen Pflichten erforderlich sind.
+
+Weitere Informationen
+Viele Organisationen ernennen einen Manager für Informationssicherheit, der die Gesamtverantwortung für Entwicklung und Umsetzung der Informationssicherheit übernimmt und die Identifizierung von Risiken und Kontrollmechanismen zur Risikominderung unterstützt.
+Allerdings verbleibt die Verantwortung für die Bereitstellung von Mitteln und Umsetzung von Maßnahmen oft bei den einzelnen Managern. Eine gängige Praxis ist es, einen Eigentümer für jeden Wert zu ernennen, der dann für den laufenden Schutz der Werte verantwortlich ist.
+Je nach Größe und Ressourcenausstattung einer Organisation kann die Informationssicherheit durch spezielle Funktionen oder durch Aufgaben abgedeckt werden, die zusätzlich zu den bestehenden Funktionen ausgeführt werden.","ISO/IEC 27002:2017-06","5.1"
+"3","5.3","Die Trennung von Aufgaben und Verantwortungsbereichen zielt darauf ab, widersprüchliche Aufgaben zwischen verschiedenen Personen zu trennen, um zu verhindern, dass eine Person potentiell widersprüchliche Aufgaben im Alleingang ausführt.
+Die Organisation sollte festlegen, welche Aufgaben und Verantwortungsbereiche getrennt werden müssen. Im Folgenden werden Beispiele für Tätigkeiten genannt, die eine Trennung erfordern können:
+a) Initiierung, Genehmigung und Durchführung einer Änderung;
+b) Beantragung, Genehmigung und Umsetzung von Zugangsrechten;
+c) Gestaltung, Implementierung und Überprüfung eines Codes;
+d) Entwicklung von Software und Verwaltung von Produktionssystemen;
+e) Nutzung und Verwaltung von Anwendungen;
+f) Nutzung von Anwendungen und Verwaltung von Datenbanken;
+g) Gestaltung, Auditierung und Sicherstellung von Informationssicherheitsmaßnahmen.
+Die Möglichkeit von Absprachen sollte bei der Gestaltung der Trennungsmaßnahmen berücksichtigt werden. Für kleine Organisationen kann Aufgabentrennung nur mit Schwierigkeiten zu erreichen sein, das Prinzip sollte aber so weit wie möglich und praktikabel angewandt werden. Falls Aufgabentrennung nur schwer durchführbar ist, sollten andere Maßnahmen wie Überwachung von Tätigkeiten, Prüfpfade und Leitungsaufsicht in Betracht gezogen werden.
+Bei der Verwendung von rollenbasierten Zugangssteuerungssystemen sollte darauf geachtet werden, dass Personen keine widersprüchlichen Rollen zugewiesen werden. Bei einer großen Anzahl von Rollen sollte das Unternehmen den Einsatz automatisierter Tools in Betracht ziehen, um Konflikte zu erkennen und deren Beseitigung zu erleichtern. Rollen sollten sorgfältig definiert und bereitgestellt werden, um Zugriffsprobleme zu minimieren, wenn eine Rolle entfernt oder neu zugewiesen wird.","ISO/IEC 27002:2017-06",NA
+"4","5.4","Die Leitung sollte nachweisen, dass die Informationssicherheitspolitik, die themenspezifischen Richtlinien, Verfahren und Informationssicherheitsmaßnahmen unterstützt werden.
+Die Verantwortlichkeiten der Leitung sollten unter anderem beinhalten, dass das Personal:
+a) über seine Rollen und Verantwortlichkeiten in der Informationssicherheit informiert wird, bevor es Zugang zu den Informationen der Organisation und anderen damit verbundenen Werten erhält;
+b) Leitlinien erhält, die die Erwartungen an seine Rolle in der Informationssicherheit innerhalb der Organisation darlegen;
+c) den Auftrag hat, der Informationssicherheitspolitik und den themenspezifischen Richtlinien der Organisation gerecht zu werden;
+d) ein Informationssicherheitsbewusstsein erreicht, das seinen Rollen und Verantwortlichkeiten in der Organisation entspricht (siehe 6.3);
+e) Einhaltung der Beschäftigungsbedingungen, des Vertrages oder der Vereinbarung, einschließlich der Informationssicherheitspolitik der Organisation und geeigneter Arbeitsmethoden;
+f) fortwährend durch ständige berufliche Weiterbildung angemessene Fähigkeiten und Qualifikationen im Bereich der Informationssicherheit besitzt ;
+g) soweit praktikabel, über einen vertraulichen Kanal Verletzungen gegen die Informationssicher-heitspolitik, themenspezifische Richtlinien oder Verfahren für die Informationssicherheit Bericht erstatten kann („Whistleblowing“). Hierbei kann es sich um anonyme Meldungen handeln oder um Bestimmungen, die sicherstellen, dass die Identität des Berichterstatters nur denjenigen bekannt ist, die sich mit solchen Meldungen befassen müssen;
+h) über angemessene Ressourcen und Projektplanungszeit für die Implementierung der sicherheits-relevanten Prozesse und Maßnahmen in der Organisation verfügt.","ISO/IEC 27002:2017-06","6.3"
+"5","5.5","Die Organisation sollte festlegen, wann und durch wen Behörden (z. B. Strafverfolgungs-, Regulierungs- und Aufsichtsbehörden) benachrichtigt werden und wie erkannte Informationssicherheitsvorfälle rechtzeitig gemeldet werden sollen.
+Kontakte mit Behörden sollten auch dazu genutzt werden, das Verständnis für die aktuellen und zukünftigen Erwartungen dieser Behörden (z. B. geltende Informationssicherheitsvorschriften) zu erleichtern.
+
+Weitere Informationen
+Organisationen, die angegriffen werden, können die Behörden auffordern, Schritte gegen die Angriffsquelle zu ergreifen.
+Die Pflege solcher Kontakte kann eine Anforderung für die Unterstützung bei Informationssicherheits-vorfällen (siehe 5.24 bis 5.28) oder für den Notfallplanungsprozess und den Prozess zur Business-Continuity (siehe 5.29 und 5.30) sein. Kontakte mit Aufsichtsbehörden helfen auch bei der Vorwegnahme und Vorbereitung anstehender Änderungen von geltenden Gesetzen oder Regulierungen, die die Organisation beeinflussen. Kontakte mit anderen Behörden umfassen auch Versorgungseinrichtungen, wie Notdienste, Stromversorgungsunternehmen, Hilfs- und Rettungsdienste [z. B. Feuerwehr (in Verbindung mit Business-Continuity), Telekommunikationsanbieter (in Verbindung mit Leitungsverlegung und Verfügbarkeit) und Wasserversorger (in Verbindung mit Kühleinrichtungen für Geräte)].","ISO/IEC 27002:2017-06","5.24;5.28;5.30;5.29"
+"6","5.6","Eine Mitgliedschaft in Interessengruppen oder Foren sollte in Betracht gezogen werden, um:
+a) die Kenntnis über beste Praktiken zu verbessern und über relevante Sicherheitsinformationen auf dem Laufenden zu bleiben;
+b) sicherzustellen, dass das Verständnis des Informationssicherheitsumfeldes aktuell ist;
+c) rechtzeitig Warnungen, Hinweise und Patches zum Schutz vor Angriffen und Schwachstellen zu erhalten;
+d) Zugang zu Fachberatung über Informationssicherheit zu erhalten;
+e) Informationen über neue Technologien, Produkte, Dienste, Bedrohungen oder Schwachstellen auszutauschen;
+f) geeignete Verbindungsstellen beim Umgang mit Informationssicherheitsvorfällen zu bieten (siehe 5.24 bis 5.28).","ISO/IEC 27002:2017-06","5.24;5.28"
+"7","5.7","Informationen über bestehende oder neu auftretende Bedrohungen werden erhoben und ausgewertet, um:
+a) fundierte Schritte zu erleichtern, um zu verhindern, dass die Bedrohungen der Organisation Schaden zufügen;
+b) die Auswirkungen solcher Bedrohungen zu verringern.
+
+Informationen über die Bedrohungslage lassen sich in drei Schichten unterteilen, die alle berücksichtigt werden sollten:
+a) strategische Bedrohungsanalyse: Austausch von High-Level-Informationen über die sich verändernde Bedrohungslandschaft (z. B. Arten von Angreifern oder Angriffen);
+b) taktische Bedrohungsdaten: Informationen über die Methoden, Werkzeuge und Technologien der Angreifer;
+c) operative Bedrohungsdaten: Einzelheiten zu bestimmten Angriffen, einschließlich technischer Indikatoren.
+
+Informationen über die Bedrohungslage sollten Folgendes sein:
+a) relevant (d. h. im Zusammenhang mit dem Schutz der Organisation);
+b) aufschlussreich (d. h. der Organisation ein genaues und detailliertes Verständnis der Bedrohungslandschaft vermitteln);
+c) kontextbezogen, um ein Situationsbewusstsein zu schaffen (d. h. Hinzufügen von Kontext zu den Informationen auf der Grundlage des Zeitpunkts der Ereignisse, des Ortes, an dem sie auftreten, früherer Erfahrungen und der Häufigkeit in ähnlichen Organisationen);
+d) umsetzbar (d. h. die Organisation kann schnell und effektiv auf Informationen reagieren).
+
+Die Bedrohungsanalyse sollte Folgendes umfassen:
+a) Festlegung von Zielen für die Erstellung der Bedrohungsanalyse;
+b) Ermittlung, Sicherheitsüberprüfung und Auswahl interner und externer Informationsquellen, die erforderlich und geeignet sind, um die für die Erstellung der Bedrohungslage erforderlichen Informationen zu liefern;
+c) Erhebung von Informationen aus ausgewählten Quellen, die sowohl intern als auch extern sein können;
+d) Verarbeitung der erhobenen Informationen, um sie für die Analyse vorzubereiten (z. B. durch Übersetzung, Formatierung oder Bestätigung der Informationen);                                                 
+e) Analyse von Informationen, um zu verstehen, wie sie mit dem Unternehmen zusammenhängen und für dieses von Bedeutung sind;
+f) Kommunikation und Weitergabe der Informationen an die betroffenen Personen in einem verständlichen Format.
+
+Die Informationen über die Bedrohungslage sollten analysiert und später genutzt werden:
+a) durch die Implementierung von Prozessen zur Einbeziehung von Informationen aus Bedrohungs-datenquellen in die Risikomanagementprozesse der Organisation für die Informationssicherheit;
+b) als zusätzlicher Beitrag zu technischen Präventiv- und Detektivmaßnahmen wie Firewalls, IDS oder Anti-Schadsoftware-Lösungen;
+c) als Input für die Prozesse und Techniken der Informationssicherheitsprüfung.
+Die Organisation sollte Bedrohungsdaten mit anderen Organisationen auf gegenseitiger Basis austauschen, um die Informationen über die Bedrohungslage insgesamt zu verbessern.
+
+Weitere Informationen
+Organisationen können Bedrohungsdaten nutzen, um Bedrohungen zu verhindern, zu erkennen oder darauf zu reagieren. Organisationen können Bedrohungsdaten selbst erstellen, sie erhalten und nutzen aber in der Regel Bedrohungsdaten aus anderen Quellen.
+Bedrohungsdaten werden häufig von unabhängigen Anbietern oder Beratern, Regierungsbehörden oder kooperativen Bedrohungsdatengruppen bereitgestellt.
+Die Wirksamkeit von Maßnahmen wie 5.25, 8.7, 8.16 oder 8.23 hängt von der Qualität der verfügbaren Bedrohungsdaten ab.","ISO/IEC 27002:2017-06","5.25;8.7;8.16;8.23"
+"8","5.8","Die Informationssicherheit sollte in das Projektmanagement integriert werden, um sicherzustellen, dass die Risiken für die Informationssicherheit im Rahmen des Projektmanagements behandelt werden. Dies kann auf jede Art von Projekt angewandt werden, unabhängig von dessen Komplexität, Größe, Dauer, Disziplin oder Anwendungsbereich (z. B. ein Projekt für einen Kerngeschäftsprozess, IKT, Gebäudemanagement oder andere unterstützende Prozesse).
+
+Das verwendete Projektmanagement sollte verlangen, dass:
+a) die Risiken für die Informationssicherheit in einem frühen Stadium und regelmäßig als Teil der Projektrisiken während des gesamten Projektlebenszyklus bewertet und behandelt werden;
+b) Anforderungen an die Informationssicherheit [z. B. Anforderungen an die Anwendungssicherheit (8.26), Anforderungen an die Einhaltung von Rechten an geistigem Eigentum (5.32) usw.] in den frühen Phasen der Projekte behandelt werden;
+c) die mit der Durchführung von Projekten verbundenen Informationssicherheitsrisiken, wie z. B. die Sicherheit der internen und externen Kommunikationsaspekte während des gesamten Projektlebenszyklus berücksichtigt und behandelt werden;
+d) die Fortschritte bei der Behandlung von Informationssicherheitsrisiken überprüft werden und die Wirksamkeit der Behandlung bewertet und geprüft wird.
+
+Die Angemessenheit der Überlegungen und Aktivitäten zur Informationssicherheit sollte in festgelegten Phasen von geeigneten Personen oder Leitungsgremien wie dem Projektlenkungsausschuss überprüft werden.
+Die Zuständigkeiten und Befugnisse für die Informationssicherheit, die für das Projekt relevant sind, sollten definiert und bestimmten Rollen zugewiesen werden.
+Die Anforderungen an die Informationssicherheit für die im Rahmen des Projekts zu liefernden Produkte oder Dienstleistungen sollten mit Hilfe verschiedener Verfahren ermittelt werden, einschließlich der Ableitung von Konformitätsanforderungen aus der Informationssicherheitspolitik, themenspezifischen Richtlinien und Vorschriften. Weitere Anforderungen an die Informationssicherheit lassen sich aus Aktivitäten wie der Modellierung von Bedrohungen, der Überprüfung von Vorfällen, der Verwendung von Schwellenwerten für Schwachstellen oder der Notfallplanung ableiten, wodurch sichergestellt wird, dass die Architektur und die Gestaltung von Informationssystemen gegen bekannte Bedrohungen auf der Grundlage des betrieblichen Umfelds geschützt sind.
+
+Die Anforderungen an die Informationssicherheit sollten für alle Arten von Projekten bestimmt werden, nicht nur für IKT-Entwicklungsprojekte. Bei der Bestimmung dieser Anforderungen sollten auch die folgenden Punkte berücksichtigt werden:
+a) um welche Informationen es sich handelt (Informationsbestimmung), welche Informationssicherheits-erfordernisse damit verbunden sind (Klassifizierung; siehe 5.12) und welche potentiellen negativen geschäftlichen Auswirkungen sich aus einer fehlenden angemessenen Sicherheit ergeben können;
+b) den erforderlichen Schutzbedarf von Informationen und anderen damit verbundenen Werten, insbesondere in Bezug auf Vertraulichkeit, Integrität und Verfügbarkeit;
+c) das erforderliche Vertrauensniveau oder die erforderliche Vertrauenswürdigkeitsstufe in Bezug auf die von den Entitäten angegebene Identität zur Ableitung der Anforderungen hinsichtlich der Authentisierung;                                                             
+d) Zugangserteilungs- und -berechtigungsprozesse für Kunden und andere potentielle geschäftliche Benutzer sowie für privilegierte oder technische Benutzer wie relevante Projektmitglieder, potentielles Betriebspersonal oder externe Lieferanten;
+e) das Informieren von Benutzern über ihre Pflichten und Verantwortlichkeiten;
+f) die aus den Geschäftsabläufen abgeleiteten Anforderungen wie die Protokollierung und Überwachung von Transaktionen sowie Anforderungen bezüglich der Nichtabstreitbarkeit;
+g) die Anforderungen, die durch andere Informationssicherheitsmaßnahmen gegeben sind (z. B. Schnittstellen zu Protokollierungs- und Überwachungssystemen oder Systemen zur Erkennung von Datenverlusten);
+h) die Einhaltung der rechtlichen, gesetzlichen, behördlichen und vertraglichen Rahmenbedingungen, in denen die Organisation tätig ist;
+i) Vertrauensniveau oder Vertrauenswürdigkeitsstufe, das/die erforderlich ist, damit Dritte die Informationssicherheitspolitik der Organisation und die themenspezifischen Richtlinien einhalten, einschließlich der einschlägigen Sicherheitsabschnitte in allen Vereinbarungen oder Verträgen.
+
+Weitere Informationen
+Der Projektentwicklungsansatz, wie z. B. der Wasserfall-Lebenszyklus oder der agile Lebenszyklus, sollte die Informationssicherheit in einer strukturierten Weise unterstützen, die je nach Art des Projekts an den bewerteten Schweregrad der Informationssicherheitsrisiken angepasst werden kann. Eine frühzeitige Berücksichtigung der Anforderungen an die Informationssicherheit für das Produkt oder die Dienstleistung (z. B. in der Planungs- und der Gestaltungsphase) kann zu effektiveren und kosteneffizienteren Lösungen für Qualität und Informationssicherheit führen. ISO 21500 und ISO 21502 bieten eine Anleitung zu Konzepten und Prozessen des Projektmanagements, die für die Durchführung von Projekten wichtig sind.
+ISO/IEC 27005 enthält eine Anleitung zur Anwendung von Risikomanagement-Prozessen für die Ermittlung von Sicherheitsmaßnahmen zur Einhaltung der Informationssicherheitsanforderungen.","ISO/IEC 27002:2017-06","5.32;8.26;5.12"
+"9","5.9","Inventar
+Die Organisation sollte ihre Informationen und anderen damit verbundenen Werte identifizieren und deren Bedeutung in Bezug auf die Informationssicherheit bestimmen. Die Dokumentation sollte wie jeweils angemessen in eigenen oder bestehenden Inventaren aufbewahrt werden.
+Das Inventar der Informationen und anderen damit verbundenen Werte sollte genau, aktuell und konsistent sowie mit anderen Inventaren abgestimmt sein. Zu den Optionen zur Sicherstellung der Genauigkeit eines Inventars von Informationen und anderen damit verbundenen Werten gehören:
+a) Durchführung regelmäßiger Überprüfungen der identifizierten Informationen und anderen damit verbundenen Werten anhand des Inventars der Werte;
+b) automatische Erzwingung einer Inventaraktualisierung bei der Installation, Änderung oder Entfernung eines Wertes.
+Der Ort, an dem sich ein Wert befindet, sollte gegebenenfalls in das Inventar aufgenommen werden.
+Das Inventar braucht nicht eine einzige Liste von Informationen und anderen damit verbundenen Werten zu sein. In Anbetracht der Tatsache, dass das Inventar von den betreffenden Funktionen gepflegt werden sollte, kann es als eine Reihe dynamischer Inventare angesehen werden, wie z. B. Inventare für Informationswerte, Hardware, Software, virtuelle Maschinen (VMs), Einrichtungen, Personal, Kompetenzen, Fähigkeiten und Aufzeichnungen.
+Jeder Wert sollte in Übereinstimmung mit der Klassifizierung der zu diesem Wert gehörenden Informationen (siehe 5.12) klassifiziert werden.
+Die Granularität des Inventars der Informationen und anderen damit verbundenen Werte sollte den Bedürfnissen der Organisation angemessen sein. Manchmal ist es aufgrund der Beschaffenheit von Werten im Lebenszyklus von Informationen nicht möglich, bestimmte Instanzen von Werten zu dokumentieren. Ein Beispiel für einen kurzlebigen Wert ist eine VM-Instanz, deren Lebenszyklus von kurzer Dauer sein kann.
+
+Zuständigkeit
+Für die identifizierten Informationen und anderen damit verbundenen Werte sollte die Zuständigkeit für den Wert einer Person oder einer Gruppe zugewiesen und die Klassifizierung festgelegt werden (siehe 5.12, 5.13). Ein Prozess zur Sicherstellung einer zeitnahen Zuweisung der Zuständigkeit für Werte sollte umgesetzt werden. Die Zuständigkeit sollte zugewiesen werden, wenn Werte geschaffen oder auf die Organisation übertragen werden. Die Zuständigkeit für Werte sollte bei Bedarf neu zugewiesen werden, wenn die derzeitigen Eigentümer ausscheiden oder ihre Funktion wechseln.
+Pflichten des Eigentümers
+Der Eigentümer eines Werts sollte für die ordnungsgemäße Verwaltung eines Werts über den gesamten Lebenszyklus des Werts verantwortlich sein und sicherstellen, dass:
+a) Informationen und andere damit verbundene Werte inventarisiert werden;
+b) Informationen und andere damit verbundene Werte angemessen klassifiziert und geschützt werden;
+c) die Klassifizierung periodisch überprüft wird;
+d) Komponenten zur Unterstützung von Technologiewerten aufgelistet und miteinander verknüpft werden, z. B. Datenbank, Speicher, Softwarekomponenten und Unterkomponenten;            
+e) Anforderungen für den zulässigen Gebrauch von Informationen und anderen damit verbundenen Werten (siehe 5.10) festgelegt werden;
+f) die Zugangsbeschränkungen der Klassifizierung entsprechen, wirksam sind und regelmäßig überprüft werden;
+g) Informationen und andere damit verbundene Werte, wenn sie gelöscht oder entsorgt werden, auf sichere Weise gehandhabt und aus dem Inventar entfernt werden;
+h) er an der Identifizierung und dem Management der mit seinem/seinen Wert(en) verbundenen Risiken beteiligt ist;
+i) er das Personal unterstützt, das die Aufgabe und die Verantwortung hat, ihre Informationen zu verwalten.
+
+Weitere Informationen
+Inventare von Informationen und anderen damit verbundenen Werten sind oft notwendig, um den wirksamen Schutz von Informationen sicherzustellen, und können auch für andere Zwecke erforderlich sein, z. B. für Gesundheit und Sicherheit, Versicherung oder aus finanziellen Gründen. Die Inventare von Informationen und anderen damit verbundenen Werten unterstützen auch das Risikomanagement, Auditaktivitäten, das Schwachstellenmanagement, die Reaktion auf Vorfälle und die Wiederherstellungsplanung.
+Aufgaben und Verantwortlichkeiten können delegiert werden (z. B. an einen Verwalter, der täglich die Werte beaufsichtigt), aber die Person oder Gruppe, die sie delegiert hat, bleibt rechenschaftspflichtig.
+Es kann sinnvoll sein, Gruppen von Informationen und anderen damit verbundenen Werten zu benennen, die bei der Erbringung einer bestimmten Dienstleistung zusammenwirken. In diesem Fall ist der Zuständige für diese Dienstleistung für deren Erbringung rechenschaftspflichtig, einschließlich des Einsatzes der Werte.
+Siehe ISO/IEC 19770-1 für zusätzliche Informationen zum Management von IT-Werten. Siehe ISO 55001 für zusätzliche Informationen zum Asset-Management.","ISO/IEC 27002:2017-06","5.12;5.13"
+"10","5.10","Personal und sonstige Benutzer, die zu externen Parteien gehören, die Informationen und andere damit verbundene Werte der Organisation nutzen oder Zugriff darauf haben, sollten auf die Informations-sicherheitsanforderungen zum Schutz und zur Handhabung der Informationen und anderen damit verbundenen Werten der Organisation hingewiesen werden. Sie sollten für ihre eigene Nutzung informationsverarbeitender Einrichtungen verantwortlich sein.
+Die Organisation sollte eine themenspezifische Richtlinie für die zulässige Nutzung von Informationen und anderen zugehörigen Vermögenswerten aufstellen und sie an alle Personen weitergeben, die Informationen und andere damit verbundene Werte nutzen oder bearbeiten. Die themenspezifische Richtlinie über den zulässigen Gebrauch sollte klare Anweisungen darüber geben, wie Einzelpersonen Informationen und andere damit verbundene Werte nutzen sollen. Die themenspezifische Richtlinie sollte Folgendes darlegen:
+a) erwartete und unzulässige Verhaltensweisen von Personen aus der Sicht der Informationssicherheit;
+b) zulässiger und verbotener Gebrauch von Informationen und anderen damit verbundenen Werten;
+c) Überwachungsaktivitäten, die von der Organisation durchgeführt werden.
+Verfahren für den zulässigen Gebrauch sollten für den gesamten Lebenszyklus von Informationen in Übereinstimmung mit deren Klassifizierung (siehe 5.12) und den ermittelten Risiken erstellt werden. Die folgenden Punkte sollten dabei berücksichtigt werden:
+a) Zugriffsbeschränkungen zur Unterstützung der Schutzanforderungen für jede Klassifizierungsstufe;
+b) Pflege eines Verzeichnisses der befugten Benutzer von Informationen und anderen damit verbundenen Werten;
+c) Schutz temporärer oder dauerhafter Kopien von Informationen in einer Weise, die dem Schutz der Originalinformationen entspricht;
+d) Speicherung der mit den Informationen verbundenen Werte in Übereinstimmung mit den Herstellerspezifikationen (siehe 7.8);
+e) deutliche Kennzeichnung sämtlicher Speichermedien (elektronisch oder physisch) als Hinweis für den berechtigten Empfänger (siehe 7.10);
+f) Genehmigung der Entsorgung von Informationen und anderen damit verbundenen Werten und unterstützte Löschverfahren (siehe 8.10).
+
+Weitere Informationen
+Es kann vorkommen, dass die betreffenden Werte nicht direkt der Organisation gehören, wie z. B. bei öffentlichen Cloud-Diensten. Die Nutzung derartiger Werte Dritter und aller mit diesen externen Werten verbundenen Werte der Organisation (z. B. Informationen, Software) sollte gegebenenfalls ermittelt und gesteuert werden, beispielsweise durch Vereinbarungen mit Cloud-Service-Anbietern. Mit Vorsicht sollte auch vorgegangen werden, wenn eine kollaborative Arbeitsumgebung genutzt wird.","ISO/IEC 27002:2017-06","5.12;7.8;7.10;8.10"
+"11","5.11","Der Beendigungs- oder Änderungsprozess sollte dergestalt formalisiert sein, dass er die Rückgabe aller zuvor ausgegebenen physischen und elektronischen Werte einschließt, die Eigentum der Organisation sind oder dieser anvertraut wurden.
+In Fällen, in denen Personal und andere interessierte Parteien, die Betriebsmittel der Organisation erwerben oder ihre eigene Ausrüstung benutzen, sollten Verfahren eingehalten werden, durch die sichergestellt ist, dass alle relevanten Informationen zurückverfolgt und an die Organisation übermittelt sowie sicher von den Betriebsmitteln gelöscht werden (siehe 7.14).
+In Fällen, in denen Personal und andere interessierte Parteien über Kenntnisse verfügen, die wichtig für den laufenden Betrieb sind, sollten diese Informationen dokumentiert und an die Organisation übermittelt werden.
+Während der Kündigungsfrist und danach sollte die Organisation unbefugtes Kopieren relevanter Informationen (z. B. geistiges Eigentum) durch das gekündigte Personal verhindern.
+Die Organisation sollte alle zurückzugebenden Informationen und anderen damit verbundenen Werte klar identifizieren und dokumentieren, z. B.:
+a) Endpunktgeräte des Benutzers;
+b) tragbare Speichergeräte;
+c) Spezialausrüstung;
+d) Authentisierungshardware (z. B. mechanische Schlüssel, physische Token und Smartcards) für Informationssysteme, Standorte und physische Archive;
+e) physische Kopien von Informationen.                                                
+
+Weitere Informationen
+Es kann schwierig sein, Informationen über Werte zurückzugeben, die sich nicht im Besitz der Organisation befinden. In solchen Fällen ist es notwendig, die Verwendung von Informationen durch andere Informationssicherheitsmaßnahmen wie die Verwaltung von Zugriffsrechten (5.18) oder den Einsatz von Kryptographie (8.24) zu beschränken.","ISO/IEC 27002:2017-06","7.14;5.18;8.24"
+"12","5.12","Die Organisation sollte eine themenspezifische Richtlinie für die Klassifizierung von Informationen aufstellen und sie allen relevanten interessierten Parteien mitteilen.
+Die Organisation sollte die Anforderungen an Vertraulichkeit, Integrität und Verfügbarkeit im Klassifizierungsschema berücksichtigen.
+Klassifizierungen und damit verbundene Schutzmaßnahmen für Informationen sollten geschäftlichen Erfordernissen der gemeinsamen Nutzung oder der Einschränkung von Informationen, des Schutzes der Integrität von Informationen und der Sicherstellung der Verfügbarkeit sowie rechtlichen Anforderungen an die Vertraulichkeit, Integrität oder Verfügbarkeit der Informationen Rechnung tragen. Werte, bei denen es sich nicht um Informationen handelt, können auch unter Einhaltung der Klassifizierung der im Wert gespeicherten, durch diesen verarbeiteten oder auf andere Weise gehandhabten oder geschützten Informationen klassifiziert werden.
+Die Zuständigen für die Informationen sollten für deren Klassifizierung rechenschaftspflichtig sein.
+Das Klassifizierungsschema sollte Konventionen für die Klassifizierung und Kriterien zur Überprüfung der Klassifizierung nach einer gewissen Zeit beinhalten. Die Ergebnisse der Klassifizierung sollten bei Änderungen des Wertes, der Sensibilität und der Kritikalität der Informationen im Laufe des Lebenszyklus aktualisiert werden.
+Das Schema sollte auf die themenspezifische Richtlinie zur Zugangssteuerung (siehe 5.1) abgestimmt sein und den spezifischen Geschäftsanforderungen der Organisation gerecht werden können.                                                                                          
+Die Klassifizierung kann anhand des Ausmaßes der Auswirkungen bestimmt werden, die eine Kompromittierung der Informationen für das Unternehmen haben würde. Jeder im Schema festgelegten Stufe sollte eine Bezeichnung zugewiesen werden, die im Zusammenhang mit der Anwendung des Klassifizierungs-schemas sinnvoll ist.
+Das Schema sollte innerhalb der gesamten Organisation einheitlich sein und in deren Verfahren aufgenommen werden, so dass jeder die Informationen und die damit verbundenen Werte auf die gleiche Weise klassifiziert. Auf diese Weise haben alle ein gemeinsames Verständnis der Schutzanforderungen und wenden einen angemessenen Schutz an.
+Das innerhalb der Organisation verwendete Klassifizierungsschema kann sich von Schemata anderer Organisationen unterscheiden, selbst wenn die Bezeichnungen einzelner Stufen ähnlich sind. Außerdem kann sich die Klassifizierung von zwischen den Organisationen ausgetauschten Informationen je nach Kontext in der jeweiligen Organisation unterscheiden, auch wenn die beiden Klassifizierungsschemata identisch sind. Daher sollten Vereinbarungen mit anderen Organisationen, die den Austausch von Informationen einschließen, Verfahren zur Feststellung der Klassifizierung der betreffenden Informationen und zur Interpretation der Klassifizierungsstufen anderer Organisationen vorsehen. Die Übereinstimmung zwischen verschiedenen Systemen kann durch die Suche nach Gleichwertigkeit in den zugehörigen Handhabungs- und Schutzverfahren festgestellt werden.
+
+Weitere Informationen
+Die Klassifizierung bietet Personen im Umgang mit Informationen eine prägnante Angabe zu deren Handhabung und Schutz. Durch die Einrichtung von Informationsgruppen mit ähnlichen Schutzanforderungen sowie Spezifizierung der für alle Informationen der jeweiligen Gruppen geltenden Informationssicherheitsverfahren wird dies erleichtert. Durch diesen Ansatz reduziert sich der Aufwand für fallbezogene Risikoeinschätzungen und die Planung von Einzelmaßnahmen.
+Informationen können ihren sensiblen oder kritischen Charakter nach einer gewissen Zeitspanne verlieren. Wenn die Informationen beispielsweise öffentlich zugänglich gemacht wurden, gelten keine Anforderungen mehr an ihre Vertraulichkeit, aber ihre Integrität und Verfügbarkeit müssen möglicherweise weiterhin geschützt werden. Diese Aspekte sollten in Betracht gezogen werden, da eine Überklassifizierung zur Umsetzung unnötiger Sicherheitsmaßnahmen führen kann, die zusätzliche Ausgaben zur Folge haben. Umgekehrt kann eine Unterklassifizierung zu unzureichenden Maßnahmen zum Schutz der Informationen vor Kompromittierung führen.
+Als Beispiel kann ein Klassifizierungsschema zur Vertraulichkeit von Informationen auf dem folgenden, vierstufigen Modell beruhen:
+a) Offenlegung ist gefahrlos möglich;
+b) Offenlegung führt zu geringfügigem Schaden für den Ruf oder geringfügigen betrieblichen Auswirkungen;
+c) Offenlegung hat signifikante, kurzfristige Auswirkungen auf den Betriebsablauf oder auf Geschäftsziele;
+d) Offenlegung hat schwerwiegende Auswirkungen auf langfristige Geschäftsziele und gefährdet den Bestand der Organisation.","ISO/IEC 27002:2017-06","5.1"
+"13","5.13","Verfahren zur Kennzeichnung von Informationen sollten Informationen und andere zugehörige Werte in allen Formaten abdecken. Die Kennzeichnung sollte dem in 5.12 festgelegten Klassifizierungsschema Rechnung tragen. Die Kennzeichnungen sollten einfach zu erkennen sein. Die Verfahren sollten eine Anleitung bieten, wo und wie Kennzeichnungen anzubringen sind unter Berücksichtigung der Art und Weise, wie in Abhängigkeit vom jeweiligen Speichermedientyp auf die Informationen zugegriffen bzw. mit den Werten umgegangen wird. Die Verfahren können Folgendes festlegen:
+a) Fälle, in denen auf eine Kennzeichnung verzichtet wird (z. B. bei nicht vertraulichen Informationen, um die Arbeitsbelastung zu verringern);
+b) wie Informationen zu kennzeichnen sind, die auf elektronischem oder physischem Wege oder in einem anderen Format übermittelt oder gespeichert werden;
+c) wie mit Fällen umzugehen ist, in denen eine Kennzeichnung nicht möglich ist (z. B. aufgrund technischer Beschränkungen).
+Beispiele für Kennzeichnungsverfahren umfassen:
+a) physische Kennzeichnungen;
+b) Kopf- und Fußzeilen;
+c) Metadaten;
+d) Wasserzeichenmarkierung;
+e) Stempel.
+Für digitale Informationen sollten Metadaten verwendet werden, um Informationen zu identifizieren, zu verwalten und zu kontrollieren, insbesondere im Hinblick auf die Vertraulichkeit. Metadaten sollten auch eine effiziente und korrekte Suche nach Informationen ermöglichen. Metadaten sollten es Systemen erleichtern, zu interagieren und Entscheidungen auf der Grundlage der zugehörigen Klassifizierungskennzeichnung zu treffen.                                                                                                           
+Die Verfahren sollten beschreiben, wie Metadaten an Informationen angehängt werden, welche Kennzeichnungen verwendet werden und wie Daten im Einklang mit dem Informationsmodell und der IKT-Architektur der Organisation behandelt werden sollten.
+Einschlägige zusätzliche Metadaten sollten von Systemen hinzugefügt werden, wenn sie Informationen in Abhängigkeit von ihren Informationssicherheitseigenschaften verarbeiten.
+Das Personal und andere interessierte Parteien sollten auf die Kennzeichnungsverfahren aufmerksam gemacht werden. Das gesamte Personal sollte geschult werden, um sicherzustellen, dass die Informationen korrekt gekennzeichnet und entsprechend gehandhabt werden.
+Ausgaben von Systemen, die als sensibel oder kritisch eingestufte Informationen enthalten, sollten eine entsprechende Klassifizierungskennzeichnung tragen.
+
+Weitere Informationen
+Die Kennzeichnung klassifizierter Informationen stellt eine wesentliche Voraussetzung für deren gemeinsame Nutzung dar.
+Weitere nützliche Metadaten, die den Informationen beigefügt werden können, sind der organisatorische Prozess, der die Informationen erstellt hat, und der Zeitpunkt der Erstellung.
+Die Kennzeichnung von Informationen und anderer damit verbundener Werte kann unter Umständen negative Auswirkungen haben. Klassifizierte Werte können von böswilligen Akteuren leichter identifiziert und missbraucht werden.
+Einige Systeme kennzeichnen einzelne Dateien oder Datenbankeinträge nicht mit ihrer Klassifizierung, sondern schützen alle Informationen auf der höchsten Klassifizierungsstufe der Informationen, die sie enthalten oder enthalten dürfen. In solchen Systemen ist es üblich, Informationen zu ermitteln und dann beim Export zu kennzeichnen.","ISO/IEC 27002:2017-06","5.12"
+"14","5.14","Die Organisation sollte eine themenspezifische Richtlinie für die Informationsübermittlung aufstellen und sie allen relevanten interessierten Parteien mitteilen. Die Regeln, Verfahren und Vereinbarungen zum Schutz von Informationen bei der Übermittlung sollten der Klassifizierung der betreffenden Informationen entsprechen. Wenn Informationen zwischen der Organisation und Dritten übermittelt werden, sollten Übermittlungsvereinbarungen (einschließlich der Authentisierung des Empfängers) getroffen und aufrechterhalten werden, um Informationen in jeder Form während der Übermittlung zu schützen (siehe 5.10).
+Die Informationsübermittlung kann durch elektronische Übermittlung, physische Speichermedien und mündliche Übermittlung erfolgen.
+
+Für alle Arten der Informationsübermittlung sollten Regeln, Verfahren und Vereinbarungen Folgendes beinhalten:
+a) Maßnahmen zum Schutz der übermittelten Informationen vor Abfangen, unbefugtem Zugriff, Vervielfältigung, Änderung, Fehlleitung, Zerstörung und Dienstverweigerung, einschließlich einer der Klassifizierung der betreffenden Informationen entsprechenden Zugangssteuerung und spezieller Maßnahmen, die zum Schutz sensibler Informationen erforderlich sind, wie z. B. die Verwendung kryptographischer Techniken (siehe 8.24);
+b) Maßnahmen zur Sicherstellung der Rückverfolgbarkeit und Nichtabstreitbarkeit einschließlich der Einhaltung einer Nachweiskette für Informationen, während diese übermittelt werden;
+c) Identifizierung geeigneter Kontaktpersonen für die Übermittlung, einschließlich der Verantwortlichen der Informationen, der Risikoverantwortlichen, der Sicherheitsbeauftragten und der Informationsverwalter, soweit zutreffend;
+d) Verantwortlichkeiten und Haftung bei Informationssicherheitsvorfällen wie dem Verlust physischer Speichermedien oder Daten;
+e) Verwendung eines vereinbarten Kennzeichnungssystems für sensible oder kritische Informationen, wobei sicherzustellen ist, dass die Kennzeichnungen ohne weiteres verständlich und die Informationen angemessen geschützt sind (siehe 5.13);
+f) Zuverlässigkeit und Verfügbarkeit des Übermittlungsdienstes;
+g) die themenspezifische Richtlinie oder die Leitlinien für die zulässige Nutzung von Einrichtungen zur Informationsübermittlung (siehe 5.10);
+h) Aufbewahrungs- und Entsorgungsleitlinien für alle Geschäftsunterlagen, einschließlich Nachrichten; ANMERKUNG Für die Aufbewahrung und Entsorgung von Geschäftsunterlagen können örtliche Gesetze und Vorschriften bestehen.
+i) die Berücksichtigung sonstiger einschlägiger rechtlicher, gesetzlicher, regulatorischer und vertraglicher Anforderungen (siehe 5.31, 5.32, 5.33, 5.34) im Zusammenhang mit der Übermittlung von Informationen (z. B. Anforderungen an elektronische Signaturen).                                                                      
+
+Elektronische Übermittlung
+In den Regeln, Verfahren und Vereinbarungen sollten auch die folgenden Punkte berücksichtigt werden, wenn elektronische Kommunikationseinrichtungen für die Informationsübermittlung genutzt werden:
+a) Erkennung von und Schutz vor Schadsoftware, die durch die Verwendung elektronischer Kommunikation übermittelt werden können (siehe 8.7);
+b) Schutz übermittelter sensibler elektronischer Informationen, die in Form eines Anhangs vorliegen;
+c) Vorbeugung gegen die Versendung von Dokumenten und Nachrichten in Mitteilungen an eine falsche Adresse oder Nummer;
+d) Einholung einer Genehmigung vor der Nutzung externer öffentlicher Dienste wie Instant Messaging, soziale Netzwerke, Dateiaustausch oder Cloud-Speicherung;
+e) stärkere Authentisierungsstufen bei der Übermittlung von Informationen über öffentlich zugängliche Netze;
+f) Beschränkungen in Verbindung mit elektronischen Kommunikationseinrichtungen (z. B. automatische Weiterleitung von E-Mails an externe E-Mail-Adressen);
+g) Anweisung an das Personal und andere interessierte Parteien, keine Kurznachrichten (SMS, en: short message service) oder Sofortnachrichten mit kritischen Informationen zu versenden, da diese an öffentlichen Orten (und damit von Unbefugten) gelesen oder in nicht ausreichend geschützten Geräten gespeichert werden können;
+h) Anweisung an das Personal und andere interessierte Parteien bezüglich der Probleme bei der Nutzung von Faxgeräten oder -diensten, nämlich:
+1) unbefugter Zugriff auf eingebaute Nachrichtenspeicher zum Abruf von Nachrichten;
+2) vorsätzliche oder unbeabsichtigte Programmierung der Maschinen, so dass diese Nachrichten an bestimmte Nummern senden.
+
+Übermittlung physischer Speichermedien
+Bei der Übermittlung von physischen Speichermedien (einschließlich Papier) sollten die Regeln, Verfahren und Vereinbarungen auch Folgendes umfassen:
+a) Verantwortlichkeiten für die Steuerung von und Mitteilung bezüglich Übermittlung, Versand und Empfang;
+b) Sicherstellung der korrekten Adressierung und Beförderung der Nachricht;
+c) eine Verpackung, die den Inhalt vor physischen Schäden schützt, zu denen es während des Transports kommen kann, und den Spezifikationen des Herstellers entspricht, zum Beispiel Schutz vor Umwelteinflüssen, die die Wirksamkeit der Wiederherstellung von Speichermedien beeinträchtigen können, wie z. B. Hitze, Feuchtigkeit oder elektromagnetische Felder; Anwendung technischer Mindestnormen für Verpackung und Versand (z. B. Verwendung undurchsichtiger Umschläge);
+d) eine Liste befugter zuverlässiger Kuriere, die von der Geschäftsleitung genehmigt wurde;
+e) Standards zur Identifizierung eines Kurierunternehmens;            
+f) je nach Klassifizierungsgrad der Informationen in den zu transportierenden Speichermedien manipulationsaufzeigende oder manipulationssichere Maßnahmen (z. B. Taschen, Behälter) anwenden;
+g) Verfahren zur Verifizierung der Identität der Kuriere;
+h) genehmigte Liste von Dritten, die Transport- oder Kurierdienste anbieten, je nach Klassifizierung der Informationen;
+i) Führung von Protokollen zur Identifizierung des Inhalts der Speichermedien, des angewandten Schutzes sowie zur Aufzeichnung der Liste der berechtigten Empfänger, der Zeitpunkte der Übergabe an die Transportwächter und die Entgegennahme am Bestimmungsort.
+
+Mündliche Übermittlung
+Um die mündliche Übermittlung von Informationen zu schützen, sollten das Personal und andere interessierte Parteien daran erinnert werden, dass sie Folgendes tun sollten:
+a) keine vertraulichen mündlichen Gespräche an öffentlichen Orten oder über unsichere Kommunikations-kanäle führen, da diese von Unbefugten abgehört werden können;
+b) kein Hinterlassen von vertraulichen Informationen enthaltenden Mitteilungen auf Anrufbeantwortern oder als Sprachnachrichten, da diese von unbefugten Personen wiedergegeben, auf gemeinsamen Systemen gespeichert oder beim Wählen einer falschen Nummer ordnungswidrig gespeichert werden können;
+c) auf die geeignete Lautstärke, wie notwendig, um das Gespräch zu verfolgen, abgeschirmt werden;
+d) sicherstellen, dass geeignete Maßnahmen zu den Räumlichkeiten getroffen werden (z. B. Schallisolierung, geschlossene Türen);
+e) alle sensiblen Gespräche mit einer Erklärung beginnen, sodass die Anwesenden die Klassifizierungsstufe dessen, was sie hören werden, kennen und wissen, welche Anforderungen an den Umgang mit dem Gehörten gestellt werden.","ISO/IEC 27002:2017-06","5.10;8.24;5.13;5.31;5.32;5.33;5.34;8.7"
+"15","5.15","Die Zuständigen für Informationen und andere damit verbundene Werte sollten die Anforderungen an die Informationssicherheit und die Geschäftsanforderungen in Bezug auf die Zugangssteuerung festlegen. Eine themenspezifische Richtlinie zur Zugangssteuerung sollte festgelegt werden, die diesen Anforderungen Rechnung trägt und allen relevanten interessierten Parteien mitgeteilt werden sollte.
+Bei diesen Anforderungen und der themenspezifischen Richtlinie sollte Folgendes berücksichtigt werden:
+a) Festlegung, welche Entitäten welche Art von Zugang zu den Informationen und anderen damit verbundenen Werten benötigen;
+b) Sicherheit der Anwendungen (siehe 8.26);
+c) physischer Zugang, der durch geeignete physische Zutrittskontrollen unterstützt werden muss (siehe 7.2, 7.3, 7.4);
+d) Verteilung und Genehmigung von Informationen (z. B. der Grundsatz „Kenntnis nur wenn erforderlich“), Informationssicherheitsstufen und Klassifizierung von Informationen (siehe 5.10, 5.12, 5.13);
+e) Einschränkungen des privilegierten Zugriffs (siehe 8.2);
+f) Aufgabentrennung (siehe 5.3);
+g) relevante Gesetzgebung, Vorschriften und vertragliche Verpflichtungen hinsichtlich der Begrenzung des Zugangs zu Daten oder Diensten (siehe 5.31, 5.32, 5.33, 5.34, 8.3);
+h) Trennung von Zugangssteuerungsfunktionen (z. B. Zugangsbeantragung, Zugangsgenehmigung, Zugangsverwaltung);
+i) offizielle Genehmigung von Zugangsbeantragungen (siehe 5.16 und 5.18);
+j) das Management von Zugangsrechten (siehe 5.18);
+k) Protokollierung (siehe 8.15).
+
+Zugriffskontrollregeln sollten durch die Definition und Zuordnung geeigneter Zugriffsrechte und -beschränkungen zu den relevanten Entitäten umgesetzt werden (siehe 5.16). Eine Entität kann sowohl einen menschlichen Benutzer als auch ein technisches oder logisches Objekt (z. B. eine Maschine, ein Gerät oder einen Dienst) darstellen. Um das Management der Zugangssteuerung zu vereinfachen, können Entitätsgruppen bestimmte Rollen zugewiesen werden.
+Bei der Festlegung und Umsetzung von Zugangssteuerungsregeln sollte Folgendes berücksichtigt werden:
+a) Konsistenz zwischen den Zugangsberechtigungen und der Informationsklassifizierung;
+b) Konsistenz zwischen den Zugangsberechtigungen und Anforderungen an die Sicherheit des physischen Perimeters;            
+c) Berücksichtigung aller Arten von verfügbaren Verbindungen in verteilten Umgebungen, so dass Entitäten nur Zugang zu Informationen und anderen damit verbundenen Werten einschließlich Netzwerken und Netzwerkdiensten, erhalten, zu deren Nutzung sie berechtigt sind;
+d) Überlegungen, wie Elemente oder Faktoren, die für die dynamische Zugangssteuerung relevant sind, berücksichtigt werden können.
+
+Weitere Informationen
+Im Zusammenhang mit der Zugangssteuerung werden häufig übergreifende Grundsätze verwendet. Zwei der am häufigsten verwendeten Grundsätze sind:
+a) Kenntnis nur wenn nötig: eine Entität erhält nur Zugang zu Informationen, die sie für die Erfüllung ihrer Aufgaben benötigt (unterschiedliche Aufgaben oder Rollen bedeuten unterschiedliche Kenntnisanforderungen und damit unterschiedliche Zugangsprofile);
+b) Notwendigkeit der Nutzung: Eine Entität erhält nur dann Zugang zur informationstechnischen Infrastruktur, wenn ein eindeutiger Bedarf besteht.
+
+Bei der Festlegung der Zugangssteuerungsregeln sollte mit besonderer Sorgfalt vorgegangen werden, um die folgenden Punkte zu berücksichtigen:
+a) Festlegen von Regeln auf Grundlage der Prämisse des geringsten Privilegs, „Es ist grundsätzlich alles verboten, was nicht ausdrücklich gestattet wird“ anstatt der schwächeren Regel „Grundsätzlich ist alles erlaubt, sofern es nicht ausdrücklich verboten ist“;
+b) Änderungen bei der Kennzeichnung von Informationen (siehe 5.13), die automatisch durch Einrichtungen zur Informationsverarbeitung ausgelöst werden und solche, die nach Ermessen eines Benutzers ausgelöst werden;
+c) Änderungen von Benutzerberechtigungen, die automatisch durch das Informationssystem und solche, die durch einen Administrator ausgelöst werden;
+d) Zeitpunkt(e), wann die Genehmigung festgelegt und regelmäßig überprüft werden soll.
+Zugangssteuerungsregeln sollten durch dokumentierte Verfahrensweisen (siehe 5.16, 5.17, 5.18, 8.2, 8.3, 8.4, 8.5, 8.18) und festgelegte Verantwortlichkeiten (siehe 5.2, 5.17) unterstützt werden.
+Es gibt verschiedene Möglichkeiten der Zugangssteuerung, wie MAC (systembestimmte Zugangssteuerung, en: mandatory access control), DAC (benutzerbestimmbare Zugangssteuerung, en: discretionary access control), RBAC (rollenbasierte Zugangssteuerung, en: role-based access control) und ABAC (attributbasierte Zugangssteuerung, en: attribute-based access control).
+Zugangssteuerungsregeln können auch dynamische Elemente enthalten (z. B. eine Funktion, die vergangene Zugänge oder bestimmte Umgebungswerte auswertet). Zugangssteuerungsregeln können in unterschiedlicher Granularität implementiert werden, von der Abdeckung ganzer Netze oder Systeme bis hin zu spezifischen Datenfeldern, und können auch Eigenschaften wie den Standort des Benutzers oder die Art der Netzwerkverbindung, die für den Zugang verwendet wird, berücksichtigen. Diese Grundsätze und die Art und Weise, wie die granulare Zugangssteuerung definiert wird, können erhebliche Auswirkungen auf die Kosten haben. Strengere Regeln und mehr Granularität führen in der Regel zu höheren Kosten. Anhand von Geschäftsanforderungen und Risikoerwägungen sollte festgelegt werden, welche Zugangssteuerungsregeln angewendet werden und welche Granularität erforderlich ist.","ISO/IEC 27002:2017-06","8.26;7.2;7.3;7.4;5.10;5.12;5.13;8.2;5.3;5.31;5.32;5.33;5.34;8.3;5.16;5.18;8.15;5.17;8.4;8.5;8.18;5.2"
+"16","5.16","Die im Rahmen des Identitätsmanagements eingesetzten Verfahren sollten Folgendes sicherstellen:
+a) bei Identitäten, die Personen zugeordnet sind, wird eine bestimmte Identität nur mit einer einzigen Person verknüpft, um die Person für Handlungen, die mit dieser bestimmten Identität durchgeführt wurden, zur Rechenschaft ziehen zu können;
+b) Identitäten, die mehreren Personen zugewiesen sind (z. B. geteilte Identitäten), sind nur zulässig, wenn sie aus geschäftlichen oder betrieblichen Gründen erforderlich sind, und unterliegen einer speziellen Genehmigung und Dokumentation;
+c) Identitäten, die nicht-menschlichen Entitäten zugewiesen werden, unterliegen einer angemessenen getrennten Genehmigung und einer unabhängigen laufenden Beaufsichtigung;
+d) Identitäten werden rechtzeitig deaktiviert oder entfernt, wenn sie nicht mehr benötigt werden (z. B. wenn die zugehörigen Entitäten gelöscht oder nicht mehr verwendet werden oder wenn die mit einer Identität verknüpfte Person die Organisation verlassen oder die Rolle gewechselt hat);
+e) in einer bestimmten Domäne wird eine einzige Identität einer einzigen Entität zugeordnet, [d. h. die Zuordnung mehrerer Identitäten zu derselben Entität innerhalb desselben Kontexts (doppelte Identitäten) wird vermieden];
+f) Aufzeichnungen aller signifikanten Ereignisse, die die Nutzung und Verwaltung von Benutzeridentitäten sowie Authentisierungsinformationen betreffen, werden geführt.
+Die Organisation sollte über einen unterstützenden Prozess verfügen, um Änderungen an Informationen im Zusammenhang mit Benutzeridentitäten zu handhaben. Diese Prozesse können eine erneute Überprüfung von vertrauenswürdigen Dokumenten zu einer Person beinhalten.                                                                       
+
+Bei der Verwendung von Identitäten, die von Dritten bereitgestellt oder ausgestellt werden (z. B. Zugangsdaten für soziale Medien), sollte die Organisation sicherstellen, dass die Identitäten Dritter das erforderliche Vertrauensniveau bieten und alle damit verbundenen Risiken bekannt sind und ausreichend behandelt werden. Dies kann sowohl Maßnahmen in Bezug auf Dritte (siehe 5.19) als auch Maßnahmen in Bezug auf die zugehörigen Authentisierungsinformationen (siehe 5.17) umfassen.
+
+Weitere Informationen
+Die Gewährung bzw. der Entzug des Zugangs zu Informationen oder anderen damit verbundenen Werten erfolgt üblicherweise im Rahmen eines mehrstufigen Verfahrens:
+a) die Bestätigung der geschäftlichen Anforderungen für eine zu erstellende Identität;
+b) Überprüfung der Identität einer Entität, bevor ihr eine logische Identität zugewiesen wird;
+c) Erstellung einer Identität;
+d) Konfigurieren und Aktivieren der Identität. Dazu gehört auch die Konfiguration und Ersteinrichtung der entsprechenden Authentisierungsdienste;
+e) Gewährung oder Entzug bestimmter Zugangsrechte zur Identität auf der Grundlage entsprechender Autorisierungs- oder Berechtigungsentscheidungen (siehe 5.18).","ISO/IEC 27002:2017-06","5.17;5.19;5.18"
+"17","5.17","Der Zuweisungs- und Managementprozess sollte sicherstellen, dass:
+a) persönliche Kennwörter oder persönliche Identifikationsnummern (PINs), die automatisch während des Anmeldevorgangs als vorübergehende geheime Authentisierungsinformationen generiert werden, nicht erraten werden können und für jede Person einzigartig sind, und dass es für Benutzer erforderlich ist, diese nach der ersten Verwendung zu ändern;                                                                                                         
+b) Verfahren eingerichtet werden, mit denen die Identität eines Benutzers vor der Zustellung neuer, die bisherigen ersetzender oder temporär gültiger geheimer Authentisierungsinformationen überprüft werden kann;
+c) Authentisierungsinformationen, einschließlich vorübergehender Authentisierungsinformationen, den Benutzern auf sichere Weise (z. B. über einen authentisierten und geschützten Kanal) übermittelt werden und die Verwendung ungeschützter (Klartext-)E-Mail-Nachrichten zu diesem Zweck vermieden wird;
+d) Benutzer den Erhalt von Authentisierungsinformationen bestätigen;
+e) die vordefinierten oder von den Anbietern bereitgestellten Standard-Authentisierungsinformationen unmittelbar nach der Installation von Systemen oder Software geändert werden;
+f) Aufzeichnungen über wichtige Ereignisse im Zusammenhang mit der Zuweisung und Verwaltung von Authentisierungsinformationen geführt werden und ihre Vertraulichkeit gewährleistet ist und dass das Verfahren zur Aufbewahrung der Aufzeichnungen genehmigt ist (z. B. durch Verwendung eines genehmigten Kennwort-Tresor-Tools).
+
+Benutzerverantwortlichkeiten
+Jede Person, die Zugang zu Authentisierungsinformationen hat oder diese verwendet, sollte angewiesen werden, Folgendes sicherzustellen:
+a) geheime Authentisierungsinformationen wie Kennwörter werden vertraulich behandelt. Persönliche, geheime Authentisierungsinformationen dürfen an niemanden weitergegeben werden. Geheime Authentisierungsinformationen, die im Zusammenhang mit Identitäten verwendet werden, die mit mehreren Benutzern oder mit nicht-personenbezogenen Entitäten verknüpft sind, werden ausschließlich mit befugten Personen geteilt;
+b) betroffene oder kompromittierte Authentisierungsinformationen werden sofort geändert, sobald eine Kompromittierung bekannt wird oder ein anderer Hinweis darauf vorliegt;
+c) falls Kennwörter als Authentisierungsinformationen verwendet werden, werden sichere Kennwörter nach den Empfehlungen für bewährte Verfahren gewählt, zum Beispiel:
+1) Kennwörter basieren auf keinen Sachverhalten, die eine andere Person unter Zuhilfenahme personenbezogener Daten (z. B. Namen, Telefonnummern, Geburtstage) einfach erraten oder erschließen kann;
+2) Kennwörter basieren nicht auf Wörterbucheinträgen oder deren Kombinationen;
+3) leicht zu merkende Passphrasen werden verwendet, und es sollten möglichst alphanumerische Zeichen und Sonderzeichen enthalten sein;
+4) Kennwörter haben eine Mindestlänge;
+d) die gleichen Kennwörter werden nicht für verschiedene Dienste und Systeme verwendet;
+e) die Verpflichtung zur Einhaltung dieser Regeln ist auch in den Beschäftigungs‑ und Vertragsbedingungen enthalten (siehe 6.2).    System zur Verwaltung von Kennwörtern
+
+Wenn Kennwörter als Authentisierungsinformationen verwendet werden, sollte das Kennwort-managementsystem:
+a) den Benutzern die Möglichkeit bieten, eigene Kennwörter zu wählen und diese zu ändern sowie ein Bestätigungsverfahren beinhalten, das Eingabefehler abfängt;
+b) sichere Kennwörter nach den Empfehlungen für bewährte Verfahren [siehe c) unter „Benutzer-verantwortlichkeiten“] durchsetzen;
+c) die Benutzer dazu bringen, ihr Kennwort bei der ersten Anmeldung zu ändern;
+d) die Änderung von Kennwörtern bei Bedarf durchsetzen, z. B. nach einem Sicherheitsvorfall oder bei Beendigung oder Wechsel des Beschäftigungsverhältnisses, wenn ein Benutzer über bekannte Kennwörter für Identitäten verfügt, die weiterhin aktiv sind (z. B. gemeinsam genutzte Identitäten);
+e) die Wiederverwendung früherer Kennwörter verhindern;
+f) die Verwendung von häufig verwendeten Kennwörtern und kompromittierten Benutzernamen sowie Kennwortkombinationen aus gehackten Systemen verhindern;
+g) Kennwörter bei der Eingabe nicht auf dem Bildschirm anzeigen;
+h) Kennwörter verschlüsselt speichern und übermitteln.
+Die Verschlüsselung und das Hashing von Kennwörtern sollten nach genehmigten kryptographischen Verfahren für Kennwörter durchgeführt werden (siehe 8.24).
+
+Weitere Informationen
+Kennwörter oder Passphrasen sind eine allgemein gebräuchliche Art von Authentisierungsinformationen und ein übliches Mittel zur Verifizierung der Identität eines Benutzers. Andere Arten von Authentisierungsinformationen sind kryptographische Schlüssel, auf Hardware-Token (z. B. Smartcards) gespeicherte Daten, die Authentisierungscodes und biometrische Daten wie Iris-Scans oder Fingerabdrücke erzeugen. Zusätzliche Informationen sind in der Normenreihe ISO/IEC 24760 zu finden.                                           
+Die häufige Änderung von Kennwörtern zu fordern, kann problematisch sein, da die Benutzer durch die häufigen Änderungen entnervt sein, neue Kennwörter vergessen, sie an unsicheren Orten notieren oder unsichere Kennwörter wählen können. Durch die Bereitstellung von Single Sign-on (SSO) oder anderer Authentisierungsmanagement-Tools (z. B. Kennwort-Tresore) verringert sich die Menge der Authentisierungsinformationen, die die Benutzer schützen müssen, und kann somit die Wirksamkeit dieser Maßnahme steigern. Allerdings kann sich bei Verwendung dieser Tools die Offenlegung von Authentisierungsinformationen auch schwerwiegender auswirken.
+Bei einigen Anwendungen müssen die Benutzerkennwörter von einer unabhängigen Stelle vergeben werden. In diesen Fällen gelten die Buchstaben a), c) und d) unter „System zur Verwaltung von Kennwörtern“ nicht.","ISO/IEC 27002:2017-06","8.24"
+"18","5.18","Erteilung und Entzug von Zugangsrechten
+Der Bereitstellungsprozess für die Zuweisung bzw. Entziehung von physischen und logischen Zugangsrechten, die der authentisierten Identität einer Entität gewährt werden, sollte folgende Punkte umfassen:
+a) Einholung der Genehmigung für die Nutzung der Informationen und anderen damit verbundenen Werte vom Zuständigen für die Informationen und anderen damit verbundenen Werte (siehe 5.9). Auch eine gesonderte Genehmigung der Zugangsrechte durch die Leitung kann sinnvoll sein;
+b) Berücksichtigung der geschäftlichen Anforderungen und der themenspezifischen Richtlinie und der Regeln der Organisation zur Zugangssteuerung;
+c) Berücksichtigung der Aufgabentrennung, einschließlich der Trennung der Rollen für die Genehmigung und die Umsetzung der Zugangsrechte und der Trennung von sich widersprechenden Rollen;
+d) Sicherstellung, dass Zugangsrechte entfernt werden, wenn jemand keinen Zugang zu den Informationen und anderen damit verbundenen Werten benötigt, und insbesondere, dass Zugangsrechte von Benutzern, die die Organisation verlassen haben, rechtzeitig entfernt werden;
+e) Erwägung der Erteilung von zeitlich begrenzten Zugangsrechten und deren Entzug zum Ablaufdatum, insbesondere für zeitlich befristetes Personal oder zeitlich begrenzten Zugang, der vom Personal benötigt wird;
+f) überprüfen, dass die gewährte Berechtigungsstufe mit den themenspezifischen Richtlinien zur Zugangssteuerung (siehe 5.15) übereinstimmt und mit anderen Informationssicherheitsanforderungen wie der Aufgabentrennung (siehe 5.3) vereinbar ist;
+g) Sicherstellung, dass die Zugangsrechte (z. B. durch die Dienstleister) erst nach erfolgreichem Abschluss der Genehmigungsverfahren aktiviert werden;                                           
+h) Aufrechterhalten eines zentralen Verzeichnisses der unter einer Benutzerkennung (ID, logisch oder physisch) gewährten Rechte für den Zugang zu Informationen und anderen damit verbundenen Werten;
+i) Änderung der Zugangsrechte von Benutzern, die ihre Rolle oder ihren Arbeitsplatz gewechselt haben;
+j) die Entziehung oder Anpassung der physischen und logischen Zugangsrechte, was mittels Entfernung, Sperrung oder Ersetzung von Schlüsseln, Authentisierungsinformationen, Ausweiskarten oder Abonnements erfolgen kann;
+k) Führung eines Verzeichnisses der Änderungen der logischen und physischen Zugangsrechte der Benutzer.
+
+Überprüfung von Zugangsrechten
+Bei der regelmäßigen Überprüfung der logischen und physischen Zugangsrechte sollten die folgenden Punkte beachtet werden:
+a) die Benutzerzugangsrechte nach einem Wechsel innerhalb derselben Organisation (z. B. Stellenwechsel, Beförderung, Herabstufung) oder nach Beendigung des Beschäftigungsverhältnisses (siehe 6.1 bis 6.5);
+b) Genehmigungen von privilegierten Zugangsrechten.
+
+Überlegungen vor dem Wechsel oder der Beendigung des Beschäftigungsverhältnisses
+Die Zugangsrechte eines Benutzers zu Informationen und anderen damit verbundenen Werten sollten vor jeder Änderung oder Beendigung des Beschäftigungsverhältnisses auf der Grundlage der Bewertung von z. B. folgenden Risikofaktoren überprüft und angepasst oder entfernt werden:
+a) die Frage, ob die Beendigung oder Änderung vom Benutzer oder von der Leitung ausgeht, sowie die Gründe für die Beendigung;
+b) die aktuellen Zuständigkeiten des Benutzers;
+c) Einstufung der derzeit zugänglichen Werte.
+
+Weitere Informationen
+Es sollte überlegt werden, auf der Grundlage von Geschäftsanforderungen Benutzerzugangsrollen einzurichten, welche eine Anzahl von Zugangsrechten zu typischen Benutzerzugangsprofilen zusammenfassen. Zugangsbeantragungen und Überprüfungen von Zugangsrechten lassen sich auf der Ebene derartiger Benutzerzugangsrollen einfacher handhaben als auf der Ebene von einzelnen Zugangsrechten.
+Es sollte überlegt werden, Klauseln in Anstellungs- und Dienstleistungsverträge aufzunehmen, in denen Sanktionen für den Fall spezifiziert werden, dass ein unbefugter Zugang durch einen Beschäftigten versucht wird (siehe 5.20, 6.2, 6.4, 6.6).
+Bei einer von der Leitung ausgehenden Beendigung des Arbeits- oder Vertragsverhältnisses kann es dazu kommen, dass verärgertes Personal oder sonstige Benutzer, die zu externen Parteien gehören, vorsätzlich Daten verfälschen oder Einrichtungen zur Informationsverarbeitung sabotieren. Personen, die selbst kündigen oder denen gekündigt wird, können in Versuchung geraten, Daten zur späteren Verwendung zu sammeln.
+Das Klonen ist ein effizientes Verfahren für Organisationen, um Benutzern einen Zugang einzurichten. Dies sollte jedoch sorgfältig auf der Grundlage der von der Organisation festgelegten Rollen erfolgen, anstatt einfach eine Identität mit allen zugehörigen Zugangsrechten zu klonen. Das Klonen birgt die Gefahr in sich, dass es zu übermäßigen Zugangsrechten zu Informationen und anderen damit verbundenen Werten führt.","ISO/IEC 27002:2017-06","5.9;5.15;5.3;6.1;6.2;6.3;6.4;6.5;6.6;5.20"
+"19","5.19","Die Organisation sollte eine themenspezifische Richtlinie für die Lieferantenbeziehungen aufstellen und sie allen relevanten interessierten Parteien mitteilen.
+Die Organisation sollte Prozesse und Verfahren ermitteln und einführen, um Sicherheitsrisiken im Zusammenhang mit der Nutzung von Produkten und Dienstleistungen, die von Lieferanten bereitgestellt werden, zu begegnen. Dies sollte auch für die Nutzung von Ressourcen von Cloud-Anbietern durch die Organisation gelten. Zu diesen Prozessen und Verfahren sollten diejenigen gehören, die von der Organisation einzuführen sind, sowie diejenigen, deren Einführung die Organisation vom Lieferanten für die Aufnahme der Nutzung der Produkte oder Dienstleistungen eines Lieferanten oder für die Beendigung der Nutzung der Produkte und Dienstleistungen eines Lieferanten verlangt, wie z. B.:
+a) Feststellung und Dokumentation der Arten von Lieferanten (z. B. IKT-Dienstleistungen, Logistik, Versorgungseinrichtungen, Finanzdienstleistungen, IKT-Infrastrukturkomponenten), die die Vertraulichkeit, Integrität und Verfügbarkeit der Informationen der Organisation beeinträchtigen können;
+b) die Festlegung, wie Lieferanten entsprechend der Sensibilität von Informationen, Produkten und Dienstleistungen zu bewerten und auszuwählen sind (z. B. durch Marktanalysen, Kundenreferenzen, Prüfung von Unterlagen, Beurteilungen vor Ort, Zertifizierungen);
+c) Bewertung und Auswahl von Produkten oder Dienstleistungen von Lieferanten, die über angemessene Informationssicherheitsmaßnahmen verfügen, und deren Überprüfung; insbesondere die Genauigkeit und Vollständigkeit der vom Lieferanten implementierten Maßnahmen, die die Integrität der Informationen und der Informationsverarbeitung des Lieferanten und damit die Informationssicherheit der Organisation sicherstellen;
+d) Festlegung der Informationen, der IKT-Dienste und der physischen Infrastruktur der Organisation, auf die Lieferanten zugreifen, sie überwachen, steuern oder nutzen können;
+e) Festlegung der Arten von IKT-Infrastrukturkomponenten und -dienstleistungen, die von Lieferanten bereitgestellt werden und die sich auf die Vertraulichkeit, Integrität und Verfügbarkeit der Informationen der Organisation auswirken können;                            
+f) Beurteilung und Management der Informationssicherheitsrisiken im Zusammenhang mit:
+1) der Nutzung der Informationen und anderen damit verbundenen Werte der Organisation durch die Lieferanten, einschließlich der Risiken, die von potentiell böswilligen Beschäftigten der Lieferanten ausgehen;
+2) Fehlfunktionen oder Schwachstellen der Produkte (einschließlich der in diesen Produkten verwendeten Softwarekomponenten und Unterkomponenten) oder der von den Lieferanten erbrachten Dienstleistungen;
+g) Überwachung der Einhaltung der festgelegten Anforderungen an die Informationssicherheit für jede Lieferanten- und Zugriffsart, einschließlich Überprüfung durch Dritte und Produktvalidierung;
+h) Abmilderung der Nichteinhaltung der Vorschriften durch einen Lieferanten, unabhängig davon, ob diese durch Überwachung oder auf andere Weise festgestellt wurde;
+i) Umgang mit Vorfällen und Gefahren im Zusammenhang mit Produkten und Dienstleistungen der Lieferanten einschließlich Verantwortlichkeiten sowohl der Organisation als auch der Lieferanten;
+j) Maßnahmen bezüglich Ausfallsicherheit sowie ggf. zur Wiederherstellung und für den Notfall, um die Verfügbarkeit der Informationen und der Informationsverarbeitung des Lieferanten und damit die Verfügbarkeit der Informationen der Organisation sicherzustellen;
+k) Sensibilisierung und Schulung für das Personal der Organisation, das Umgang mit Personal des Lieferanten hat, bezüglich der entsprechenden Beauftragungsrichtlinien und themenspezifischen Richtlinien, Prozessen und Verfahren sowie des richtigen Verhaltens je nach Art des Lieferanten und Umfang des Lieferantenzugriffs auf die Systeme und Informationen der Organisation;
+l) Management der erforderlichen Übermittlung von Informationen, anderen damit verbundenen Werten und allen anderen zu ändernden Daten sowie Sicherstellung, dass die Informationssicherheit während der gesamten Übermittlungsphase gewahrt bleibt.
+m) Anforderungen zur Sicherstellung einer sicheren Beendigung der Lieferantenbeziehung, einschließlich:
+1) Entziehung von Zugangsrechten;
+2) Verarbeitung von Informationen;
+3) Festlegung der Eigentumsrechte an dem während der Beauftragung entwickelten geistigen Eigentum;
+4) die Übertragbarkeit von Informationen im Falle eines Lieferantenwechsels oder Insourcing;
+6) Verwaltung der Aufzeichnungen;
+7) Rückgabe von Werten;
+8) sichere Entsorgung von Informationen und anderen damit verbundenen Werten;
+9) laufende erforderliche Vertraulichkeitsbedingungen;
+n) Stufe der Personalsicherheit und der physischen Sicherheit, die vom Personal und den Einrichtungen des Lieferanten erwartet wird.                                                                                                               
+Die Verfahren für die Fortsetzung der Informationsverarbeitung für den Fall, dass der Lieferant nicht mehr in der Lage ist, seine Produkte oder Dienstleistungen bereitzustellen (z. B. aufgrund eines Vorfalls, weil der Lieferant nicht mehr im Geschäft ist oder einige Komponenten aufgrund technologischer Fortschritte nicht mehr anbietet), sollten in Betracht gezogen werden, um Verzögerungen bei der Beschaffung von Ersatzprodukten oder -dienstleistungen zu vermeiden (z. B. durch die vorherige Ermittlung eines alternativen Lieferanten oder die ständige Nutzung alternativer Lieferanten).
+
+Weitere Informationen
+In Fällen, in denen es einer Organisation nicht möglich ist, Anforderungen an einen Lieferanten zu stellen, sollte die Organisation:
+a) die in dieser Maßnahme gegebenen Hinweise bei der Entscheidung für einen Lieferanten und dessen Produkt oder Dienstleistung berücksichtigen;
+b) auf der Grundlage einer Risikobeurteilung gegebenenfalls Gegenmaßnahmen ergreifen.
+Lieferanten mit einem unzureichenden Informationssicherheitsmanagement können Informationen gefährden. Es sollten Maßnahmen festgelegt und angewendet werden, um den Zugang des Lieferanten zu Informationen und anderen damit verbundenen Werten zu verwalten. So sollten beispielsweise Geheimhaltungsvereinbarungen geschlossen oder kryptographische Verfahren eingesetzt werden, wenn ein besonderes Bedürfnis besteht, die Informationen vertraulich zu halten. Ein weiteres Beispiel sind Risiken beim Schutz personenbezogener Daten, wenn die Lieferantenvereinbarung den Transfer von bzw. den Zugriff auf Informationen über Ländergrenzen hinweg vorsieht. Der Organisation muss stets bewusst sein, dass ihr die rechtliche bzw. vertragliche Verantwortung für den Schutz der Informationen obliegt.
+Risiken können auch durch unzureichende Maßnahmen der von Lieferanten bereitgestellten IKT-Infrastrukturkomponenten oder erbrachten Dienstleistungen verursacht werden. Fehlerhafte bzw. anfällige Komponenten oder Dienste können Verstöße gegen die Informationssicherheit in der Organisation oder bei einer anderen Entität verursachen (z. B. können sie eine Schadsoftware-Infektion, Angriffe oder andere Schäden bei anderen Entitäten als der Organisation verursachen).
+Zu Einzelheiten siehe ISO/IEC 27036-2.","ISO/IEC 27002:2017-06",NA
+"20","5.20","Lieferantenvereinbarungen sollten festgelegt und dokumentiert werden, um sicherzustellen, dass ein klares Verständnis zwischen der Organisation und dem Lieferanten in Bezug auf die Verpflichtungen der beiden Parteien bezüglich der Erfüllung der relevanten Anforderungen an die Informationssicherheit besteht.
+Die folgenden Bestimmungen können bei der Abfassung der Vereinbarungen zwecks Erfüllung der Anforderungen an die Informationssicherheit berücksichtigt werden:
+a) Beschreibung der Informationen, die bereitgestellt oder auf die zugegriffen werden soll und Methoden für die Bereitstellung der bzw. den Zugriff auf die Informationen;
+b) Klassifizierung von Informationen entsprechend dem Klassifizierungsschema der Organisation (siehe 5.10, 5.12, 5.13);
+c) Abgleich des eigenen Klassifizierungsschemas der Organisation mit jenem des Lieferanten;
+d) juristische, gesetzliche, regulatorische und vertragliche Anforderungen, einschließlich des Datenschutzes, des Umgangs mit personenbezogenen Daten (pbD), der Rechte an geistigem Eigentum und des Urheberrechts, sowie eine Beschreibung, wie sichergestellt wird, dass sie erfüllt werden;
+e) Verpflichtung jeder Vertragspartei zur Umsetzung einer Reihe vereinbarter Maßnahmen, einschließlich Zugangssteuerung, Leistungsüberprüfung, Überwachung, Meldung und Auditierung, sowie die Verpflichtung des Lieferanten zur Einhaltung der Informationssicherheitsanforderungen der Organisation;
+f) Regeln zur zulässigen Nutzung sowie ggf. bezüglich der unzulässigen Nutzung von Informationen und anderen damit verbundenen Werten;
+g) Verfahren oder Bedingungen für die Genehmigung und den Entzug der Genehmigung für die Nutzung der Informationen und anderen damit verbundenen Werte der Organisation durch das Personal der Lieferanten (z. B. durch eine ausdrückliche Liste des Personals der Lieferanten, das zur Nutzung der Informationen und anderen damit verbundenen Werte der Organisation berechtigt ist);
+h) Anforderungen an die Informationssicherheit in Bezug auf die IKT-Infrastruktur des Lieferanten; insbesondere Mindestanforderungen an die Informationssicherheit für jede Informations- und Zugriffsart als Grundlage für die einzelnen Lieferantenverträge entsprechend den geschäftlichen Bedürfnissen der Organisation sowie ihren Risikokriterien;
+i) Entschädigungen und Abhilfemaßnahmen bei Nichterfüllung der Anforderungen durch den Auftragnehmer;
+j) Anforderungen und Verfahren für die Handhabung von Vorfällen (insbesondere Benachrichtigung und Zusammenarbeit bei der Behebung von Vorfällen);
+k) Anforderungen bezüglich Schulung und Sensibilisierung für bestimmte Verfahren und Anforderungen an die Informationssicherheit (z. B. für die Reaktion auf Vorfälle, Berechtigungsverfahren);
+l) einschlägige Bestimmungen für die Vergabe von Unteraufträgen, einschließlich der durchzuführenden Maßnahmen, wie z. B. die Vereinbarung über die Inanspruchnahme von Unterauftragnehmern (z. B. die Forderung, dass diese den gleichen Verpflichtungen wie der Lieferant unterliegen, die Forderung, dass eine Liste der Unterauftragnehmer vorliegt und die Forderung, dass diese vor jeder Änderung zu benachrichtigen sind);
+m) relevante Verträge, einschließlich einer Kontaktperson bei Fragen der Informationssicherheit;                                                         
+n) bestehende Überprüfungsanforderungen in Bezug auf die Beschäftigten des Lieferanten, sofern dies gesetzlich zulässig ist, einschließlich Verantwortlichkeiten für die Durchführung der Überprüfung und Benachrichtigungsverfahren, falls die Überprüfung nicht vollständig durchgeführt wurde oder das Ergebnis Anlass für Zweifel oder Bedenken gibt;
+o) die Nachweise und Bestätigungsmechanismen von Bescheinigungen Dritter für relevante Informationssicherheitsanforderungen in Bezug auf die Prozesse des Lieferanten und einen unabhängigen Bericht über die Wirksamkeit der Maßnahmen;
+p) Recht zur Überprüfung der Lieferantenprozesse und Maßnahmen im Zusammenhang mit dem Vertrag;
+q) Verpflichtung des Lieferanten, in regelmäßigen Abständen einen Bericht zur Wirksamkeit der Maßnahmen vorzulegen und Zusicherung, relevante Probleme zu beheben, die im Bericht erwähnt werden;
+r) Fehlerbehebungs- und Konfliktlösungsprozesse;
+s) Bereitstellung von Sicherungskopien, die auf die Bedürfnisse der Organisation abgestimmt sind (in Bezug auf Häufigkeit, Art und Speicherort);
+t) Sicherstellung der Verfügbarkeit einer alternativen Einrichtung (d. h. eines Standorts für die Wiederherstellung im Katastrophenfall), die nicht den gleichen Bedrohungen ausgesetzt ist wie die primäre Einrichtung, und Überlegungen zu Ausweichmaßnahmen (alternativen Maßnahmen) für den Fall, dass die primären Maßnahmen ausfallen;
+u) ein Änderungsmanagementprozess, der sicherstellt, dass die Organisation vorab informiert wird und die Möglichkeit hat, Änderungen nicht anzunehmen;
+v) physische Sicherheitsmaßnahmen, die der Klassifizierung der Informationen angemessen sind;
+w) Maßnahmen zur Informationsübermittlung, um die Informationen während der physischen oder logischen Übertragung zu schützen;
+x) Kündigungsklauseln bei Beendigung der Vereinbarung, einschließlich der Verwaltung von Unterlagen, der Rückgabe von Werten, der sicheren Entsorgung von Informationen und anderen damit verbundenen Werten sowie aller laufenden Vertraulichkeitsverpflichtungen;
+y) Bereitstellung eines Verfahrens zur sicheren Vernichtung der vom Lieferanten gespeicherten Informationen der Organisation, sobald diese nicht mehr benötigt werden;
+z) bei Vertragsende Sicherstellung der Übergabe der Supportleistungen an einen anderen Anbieter oder an die Organisation selbst.
+Die Organisation sollte ein Verzeichnis der Vereinbarungen mit externen Parteien (z. B. Verträge, Absichtserklärungen, Vereinbarungen über die gemeinsame Nutzung von Informationen) erstellen und führen, um den Überblick darüber zu behalten, wohin ihre Informationen gehen. Die Organisation sollte auch ihre Vereinbarungen mit externen Parteien regelmäßig überprüfen, validieren und aktualisieren, um sicherzustellen, dass sie weiterhin erforderlich und zweckdienlich sind und relevante Informations-sicherheitsklauseln enthalten.
+
+Weitere Informationen
+Die Verträge verschiedener Organisationen und bei verschiedenen Arten von Lieferanten können sich beträchtlich voneinander unterscheiden. Daher sollte sorgfältig darauf geachtet werden, alle relevanten Anforderungen für den Umgang mit Informationssicherheitsrisiken aufzuführen.                                          
+Einzelheiten zu Lieferantenvereinbarungen sind in der Normenreihe ISO/IEC 27036 zu finden. Für Vereinbarungen über Cloud-Dienste siehe die Normenreihe ISO/IEC 19086.","ISO/IEC 27002:2017-06","5.10;5.12;5.13"
+"21","5.21","Die folgenden Themen sollten berücksichtigt werden, um die Informationssicherheit innerhalb der IKT-Lieferkette zusätzlich zu den allgemeinen Anforderungen an die Informationssicherheit in den Lieferantenbeziehungen zu behandeln:
+a) Festlegung von Anforderungen an die Informationssicherheit, die für den Erwerb von IKT-Produkten oder -Dienstleistungen gelten;
+b) die Forderung, dass die Lieferanten von IKT-Dienstleistungen die Sicherheitsanforderungen der Organisation in der gesamten Lieferkette weitergeben, wenn sie Teile der für die Organisation erbrachten IKT-Dienstleistung untervergeben;
+c) die Forderung, dass die Anbieter von IKT-Produkten geeignete Sicherheitspraktiken in der gesamten Lieferkette verbreiten, wenn diese Produkte Komponenten enthalten, die von anderen Anbietern oder anderen Stellen gekauft oder erworben wurden (z. B. Softwareentwickler und Anbieter von Hardwarekomponenten im Unterauftrag);
+d) Aufforderung an die Anbieter von IKT-Produkten, Informationen über die in den Produkten verwendeten Softwarekomponenten zu liefern;
+e) Aufforderung an die Anbieter von IKT-Produkten, Informationen über die implementierten Sicherheitsfunktionen ihres Produkts und die für den sicheren Betrieb erforderliche Konfiguration bereitzustellen;
+f) Umsetzung eines Überwachungsprozesses sowie geeigneter Methoden zur Sicherstellung, dass die bereitgestellten IKT-Produkte und -Dienstleistungen die festgelegten Sicherheitsanforderungen erfüllen. Beispiele für solche Überprüfungsverfahren des Anbieters können Penetrationstests und der Nachweis oder die Validierung von Bescheinigungen Dritter für die Informationssicherheitsmaßnahmen des Anbieters sein;                                                                                                               
+g) Umsetzung eines Prozesses zur Festlegung und Dokumentation von Produkt- oder Dienstkomponenten, die zur Aufrechterhaltung der Funktion wesentlich sind und daher einer besonderen Aufmerksamkeit, Prüfung und weiterer Nachverfolgung bedürfen, wenn sie außerhalb der Organisation erstellt werden, insbesondere wenn der Lieferant bestimmte Aspekte der Produkt- oder Dienstkomponenten an andere Lieferanten untervergibt;
+h) Einholen der Zusicherung, dass kritische Komponenten und ihr Ursprung über die gesamte Lieferkette verfolgt werden können;
+i) Einholen der Zusicherung, dass die bereitgestellten IKT-Produkte wie erwartet funktionieren und keine unerwarteten oder unerwünschten Eigenschaften aufweisen;
+j) Umsetzung von Prozessen, mit denen sichergestellt wird, dass die von den Lieferanten gelieferten Komponenten echt sind und nicht von ihrer Spezifikation abweichen. Zu den Maßnahmen gehören beispielsweise Kennzeichnungen zum Schutz vor Manipulationen, kryptographische Hash-Verifizierungen oder digitale Signaturen. Die Überwachung auf Abweichungen von der Spezifikation kann ein Indikator für Manipulationen oder Fälschungen sein. Die Verhinderung und Erkennung von Manipulationen sollte in mehreren Phasen des Lebenszyklus der Systementwicklung erfolgen, einschließlich Gestaltung, Entwicklung, Integration, Betrieb und Wartung;
+k) Erlangung der Gewissheit, dass IKT-Produkte die geforderten Sicherheitsstufen erreichen, z. B. durch formale Zertifizierung oder ein Evaluierungssystem wie das Common Criteria Recognition Arrangement;
+l) Festlegung von Regeln für die Mitteilung von Informationen bezüglich der Lieferkette und möglicher Probleme und Kompromisse zwischen der Organisation und den Lieferanten;
+m) Umsetzung spezifischer Prozesse für das Management des Lebenszyklus und der Verfügbarkeit von IKT-Komponenten sowie der damit verbundenen Sicherheitsrisiken. Dazu gehört der Umgang mit Risiken durch Komponenten, die nicht mehr erhältlich sind, da deren Anbieter nicht mehr geschäftlich tätig sind oder diese Komponenten aufgrund des technischen Fortschritts nicht mehr bereitstellen. Die Identifizierung eines alternativen Lieferanten und das Verfahren zur Übertragung von Software und Kompetenzen auf den alternativen Lieferanten sollten in Betracht gezogen werden.
+
+Weitere Informationen
+Die spezifischen Risikomanagementpraktiken für die IKT-Lieferkette bauen auf den allgemeinen Informationssicherheits-, Qualitäts-, Projektmanagement- und Systementwicklungspraktiken auf, ersetzen diese jedoch nicht.
+Den Organisationen wird geraten, mit Lieferanten zusammenzuarbeiten, die über ein genaues Verständnis der IKT-Lieferkette sowie jedweder Angelegenheiten verfügen, die erhebliche Auswirkungen auf die bereitgestellten Produkte und Dienste haben. Die Organisation kann Einfluss auf die in der IKT-Lieferkette angewendeten Sicherheitspraktiken nehmen, indem sie in den Verträgen mit ihren Lieferanten deutlich machen, auf welche Aspekte die anderen Lieferanten innerhalb der IKT-Lieferkette eingehen sollten.
+IKT sollte von seriösen Quellen bezogen werden. Die Zuverlässigkeit von Software und Hardware ist eine Frage der Qualitätskontrolle. Auch wenn es einer Organisation im Allgemeinen nicht möglich ist, die Qualitätskontrollsysteme ihrer Anbieter zu überprüfen, so kann sie doch auf der Grundlage der Reputation des Anbieters ein belastbares Urteil fällen.
+Die hier behandelte IKT-Lieferkette umfasst auch Cloud-Dienste.
+Beispiele für IKT-Lieferketten sind:
+a) die Bereitstellung von Cloud-Diensten, bei der der Anbieter von Cloud-Diensten auf die Software-Entwickler, Telekommunikationsdienstleister und Hardware-Anbieter angewiesen ist;                                                                                            
+b) IoT, wobei der Dienst die Gerätehersteller, die Anbieter von Cloud-Diensten (z. B. die Betreiber von IoT-Plattformen), die Entwickler von Mobil- und Webanwendungen und die Anbieter von Softwarebibliotheken einbezieht;
+c) Hosting-Dienste, bei denen der Anbieter auf externe Service-Desks einschließlich der ersten, zweiten und dritten Support-Ebene zurückgreift.
+Weitere Einzelheiten, einschließlich einer Anleitung zur Risikobeurteilung, siehe ISO/IEC 27036-3.
+Software-Identifikationsetiketten (SWID) können auch zu einer besseren Informationssicherheit in der Lieferkette beitragen, indem sie Informationen über die Herkunft der Software liefern. Weitere Einzelheiten siehe ISO/IEC 19770-2.","ISO/IEC 27002:2017-06",NA
+"22","5.22","Durch die Überwachung, die Überprüfung und das Änderungsmanagement von Lieferantenleistungen sollte sichergestellt werden, dass die Informationssicherheitsbedingungen der Vereinbarungen eingehalten werden, dass Vorfälle und Probleme im Bereich der Informationssicherheit ordnungsgemäß gehandhabt werden und dass Änderungen bei den Lieferantenleistungen oder dem Geschäftsstatus die Leistungserbringung nicht beeinträchtigen.
+Dies sollte ein Verfahren zur Verwaltung der Beziehungen zwischen der Organisation und dem Lieferanten beinhalten, um:
+a) die Dienstleistungserbringungsniveaus zu überwachen, zur Verifizierung der Vertragserfüllung;
+b) die von den Lieferanten vorgenommenen Änderungen zu überwachen, einschließlich:
+1) Verbesserungen der derzeit bereitgestellten Dienstleistungen;
+2) Weiterentwicklungen jedweder neuer Anwendungen und Systeme;                                                                                                       
+3) Modifikationen oder Aktualisierungen in Bezug auf die Richtlinien und Verfahren des Lieferanten;
+4) neue oder veränderte Maßnahmen zur Klärung von Informationssicherheitsvorfällen und zur Verbesserung der Informationssicherheit;
+c) Änderungen bei den Lieferantendienstleistungen zu überwachen, einschließlich:
+1) Änderungen und Verbesserungen an den Netzwerken;
+2) Nutzung neuer Technologien;
+3) Einführung neuer Produkte oder neuerer Versionen oder Releases;
+4) neuer Entwicklungswerkzeuge und -umgebungen;
+5) Änderungen am Standort der Dienstleistungseinrichtungen;
+6) Wechsel von Unterlieferanten;
+7) Unterauftragsvergaben an andere Lieferanten;
+d) Überprüfung der vom Lieferanten vorgelegten Dienstleistungsberichte und Organisation der nach den Vereinbarungen erforderlichen regelmäßigen Fortschrittsbesprechungen;
+e) Durchführung von Lieferanten- und Unterlieferanten-Audits in Verbindung mit der Überprüfung der ggf. verfügbaren Berichte unabhängiger Auditoren sowie Nachverfolgung von festgestellten Problemen;
+f) Bereitstellung von Informationen zu Informationssicherheitsvorfällen und Überprüfung dieser Informationen entsprechend der vertraglichen Anforderungen sowie jedweder unterstützenden Leitlinien und Verfahren;
+g) Überprüfung der Lieferanten-Prüfpfade und der Aufzeichnungen zu Informationssicherheitsereignissen, betrieblichen Problemen, Ausfällen, Fehler-Nachverfolgungen und Unterbrechungen in Bezug auf die erbrachten Dienstleistungen;
+h) auf festgestellte Informationssicherheitsereignisse oder -vorfälle zu reagieren und diese zu bewältigen;
+i) Schwachstellen in der Informationssicherheit zu erkennen und zu beheben;
+j) Überprüfung von Aspekten der Informationssicherheit bei den Beziehungen des Lieferanten zu seinen eigenen Lieferanten;
+k) Sicherstellung, dass der Lieferant eine ausreichende Leistungsfähigkeit bei der Dienstleistungs-erbringung aufweist, zusammen mit umsetzbaren Plänen, die darauf ausgelegt sind, sicherzustellen, dass das vereinbarte Niveau der Dienstleistungsfortführung nach schwerwiegenden Dienstleistungsausfällen oder Schäden (siehe 5.29, 5.30, 5.35, 5.36, 8.14) eingehalten wird;
+l) Sicherstellung, dass die Lieferanten Verantwortlichkeiten für die Überprüfung der Einhaltung und Durchsetzung der vertraglichen Anforderungen festlegen;
+m) regelmäßige Bewertung, ob die Lieferanten angemessene Informationssicherheitsstufen einhalten.                                               
+Die Verantwortung für das Management der Lieferantenbeziehungen sollte einer dazu eigens bestimmten Person oder einem Team übertragen werden. Es sollten ausreichende technische Kenntnisse und Ressourcen zur Verfügung gestellt werden, um die Einhaltung der vertraglichen Anforderungen zu überwachen. Dies gilt insbesondere für die Informationssicherheitsanforderungen. Bei Feststellung von Defiziten bei der Dienstleistungserbringung sollten geeignete Schritte ergriffen werden.
+
+Weitere Informationen
+Zu Einzelheiten siehe ISO/IEC 27036-3.","ISO/IEC 27002:2017-06","5.29;5.30;5.35;5.36;8.14"
+"23","5.23","Die Organisation sollte eine themenspezifische Richtlinie für die Nutzung von Cloud-Diensten aufstellen und sie allen relevanten interessierten Parteien mitteilen.
+Die Organisation sollte festlegen und mitteilen, wie sie die mit der Nutzung von Cloud-Diensten verbundenen Informationssicherheitsrisiken zu handhaben gedenkt. Dies kann eine Erweiterung oder ein Teil des bestehenden Ansatzes sein, wie eine Organisation die von externen Parteien erbrachten Dienstleistungen verwaltet (siehe 5.21 und 5.22).
+Die Nutzung von Cloud-Diensten kann eine gemeinsame Verantwortung für die Informationssicherheit und eine Zusammenarbeit zwischen dem Anbieter des Cloud-Dienstes und der Organisation, die als Kunde des Cloud-Dienstes auftritt, erfordern. Es ist von entscheidender Bedeutung, dass die Verantwortlichkeiten sowohl für den Cloud-Dienstleister als auch für die Organisation, die als Cloud-Dienstleistungskunde auftritt, angemessen definiert und umgesetzt werden.
+
+Die Organisation sollte Folgendes festlegen:
+a) alle einschlägigen Anforderungen an die Informationssicherheit im Zusammenhang mit der Nutzung der Cloud-Dienste;
+b) Auswahlkriterien für Cloud-Dienste und Anwendungsbereich von Cloud-Diensten;
+c) Rollen und Verantwortlichkeiten im Zusammenhang mit der Nutzung und Verwaltung von Cloud-Diensten;                                      
+d) welche Informationssicherheitsmaßnahmen vom Cloud-Dienstleister und welche von der Organisation als Cloud-Dienstleistungskunde verwaltet werden;
+e) wie man die vom Cloud-Dienstleister bereitgestellten Informationssicherheitsfunktionen erhält und nutzt;
+f) wie man Zusicherungen bezüglich der von den Cloud-Dienstleistern durchgeführten Maßnahmen zur Informationssicherheit erhalten kann;
+g) wie Maßnahmen, Schnittstellen und Änderungen von Diensten zu handhaben sind, wenn eine Organisation mehrere Cloud-Dienste nutzt, insbesondere von verschiedenen Cloud-Dienstleistern;
+h) Verfahren für den Umgang mit Informationssicherheitsvorfällen, die im Zusammenhang mit der Nutzung von Cloud-Diensten auftreten;
+i) ihren Ansatz zur Überwachung, Überprüfung und Bewertung der laufenden Nutzung von Cloud-Diensten, um Informationssicherheitsrisiken zu verwalten;
+j) wie die Nutzung von Cloud-Diensten geändert oder eingestellt werden kann, einschließlich Ausstiegs-strategien für Cloud-Dienste.
+Cloud-Service-Vereinbarungen sind oft vordefiniert und können nicht verhandelt werden. Für alle Cloud-Dienste sollte die Organisation die Cloud-Dienstleistungsvereinbarungen mit dem/den Cloud-Dienstleister(n) überprüfen. Eine Cloud-Dienstleistungsvereinbarung sollte die Anforderungen der Organisation an Vertraulichkeit, Integrität, Verfügbarkeit und Informationsverarbeitung berücksichtigen, mit entsprechenden Zielen für den Cloud-Dienstleistungslevel und die Qualität der Cloud-Dienstleistung. Die Organisation sollte auch entsprechende Risikobeurteilungen durchführen, um die mit der Nutzung des Cloud-Dienstes verbundenen Risiken zu ermitteln. Etwaige Restrisiken, die mit der Nutzung des Cloud-Dienstes verbunden sind, sollten eindeutig identifiziert und von der zuständigen Leitung der Organisation angenommen werden.
+
+Eine Vereinbarung zwischen dem Cloud-Dienstleister und der Organisation, die als Cloud-Dienstleistungs-kunde auftritt, sollte die folgenden Bestimmungen zum Schutz der Daten der Organisation und zur Verfügbarkeit der Dienste enthalten:
+a) Bereitstellung von Lösungen, die auf branchenweit anerkannten Normen für Architektur und Infrastruktur basieren;
+b) Verwaltung der Zugangssteuerungen des Cloud-Dienstes zur Erfüllung der Anforderungen des Unternehmens;
+c) Implementierung von Lösungen zur Überwachung und zum Schutz vor Schadsoftware;
+d) die Verarbeitung und Speicherung sensibler Informationen der Organisation an zugelassenen Orten (z. B. in einem bestimmten Land oder einer bestimmten Region) oder innerhalb einer bestimmten Gerichtsbarkeit oder unter einer bestimmten Gerichtsbarkeit;
+e) gezielte Unterstützung im Falle eines Informationssicherheitsvorfalls in der Cloud-Dienstumgebung;
+f) Sicherstellung, dass die Anforderungen der Organisation an die Informationssicherheit erfüllt werden, wenn Cloud-Dienste weiter an einen externen Dienstleister untervergeben werden (oder Verbot der Untervergabe von Cloud-Diensten);
+g) Unterstützung der Organisation bei der Sammlung digitaler Beweismittel unter Berücksichtigung der Gesetze und Vorschriften für digitale Beweismittel in den verschiedenen Rechtsordnungen;  
+h) Bereitstellung eines angemessenen Supports und der Verfügbarkeit von Diensten für einen angemessenen Zeitraum, wenn das Unternehmen den Cloud-Dienst verlassen möchte;
+i) Bereitstellung der erforderlichen Sicherungskopien von Daten und Konfigurationsinformationen und ggf. sichere Verwaltung der Sicherungskopien auf der Grundlage der Fähigkeiten des von der Organisation, die als Cloud-Dienstleistungskunde auftritt, genutzten Cloud-Dienstleisters;
+j) Bereitstellung und Rückgabe von Informationen wie Konfigurationsdateien, Quellcode und Daten, die Eigentum der Organisation sind, die als Cloud-Dienstleistungskunde auftritt, wenn sie während der Bereitstellung des Dienstes oder bei Beendigung des Dienstes angefordert werden.
+
+Die Organisation, die als Cloud-Dienstleistungskunde auftritt, sollte berücksichtigen, ob die Vereinbarung vorsehen sollte, dass die Cloud-Dienstleister vor wesentlichen, sich auf den Kunden auswirkenden Änderungen an der Art und Weise, wie der Dienst für die Organisation erbracht wird, vorab informiert werden müssen, einschließlich:
+a) Änderungen an der technischen Infrastruktur (z. B. Umzug, Neukonfiguration oder Änderungen der Hardware oder Software), die sich auf das Cloud-Dienstleistungsangebot auswirken oder dieses verändern;
+b) Verarbeitung oder Speicherung von Informationen in einem neuen geographischen oder rechtlichen Zuständigkeitsbereich;
+c) die Nutzung von Peer-Cloud-Dienstleistern oder anderen Unterauftragnehmern (einschließlich des Wechsels bestehender oder des Einsatzes neuer Parteien).
+Die Organisation, die Cloud-Dienste nutzt, sollte engen Kontakt zu ihren Cloud-Dienstleistern halten. Diese Kontakte ermöglichen den gegenseitigen Austausch von Informationen über die Informationssicherheit bei der Nutzung von Cloud-Diensten, einschließlich eines Mechanismus, mit dem sowohl der Cloud-Dienstleister als auch die Organisation, die als Cloud-Dienstleistungskunde auftritt, jedes Dienstmerkmal überwachen und Verstöße gegen die in den Vereinbarungen enthaltenen Verpflichtungen melden können.
+
+Weitere Informationen
+Bei dieser Maßnahme wird die Sicherheit der Cloud aus der Perspektive des Cloud-Dienstleistungskunden betrachtet.
+Weitere Informationen zu Cloud-Diensten finden sich in ISO/IEC 17788, ISO/IEC 17789 und ISO/IEC 22123-1. Spezifische Angaben zur Cloud-Portabilität im Rahmen von Ausstiegsstrategien finden sich in ISO/IEC 19941. Spezifische Angaben zur Informationssicherheit und zu öffentlichen Cloud-Diensten sind in ISO/IEC 27017 beschrieben. Spezifische Angaben zum Schutz personenbezogener Daten in öffentlichen Clouds, die als Auftragsdatenverarbeiter fungieren, sind in ISO/IEC 27018 beschrieben. Die Lieferantenbeziehungen bei Cloud-Diensten werden von ISO/IEC 27036-4 abgedeckt, und die Vereinbarungen über Cloud-Dienste und ihr Inhalt werden in der Normenreihe ISO/IEC 19086 behandelt, wobei Sicherheit und Datenschutz speziell von ISO/IEC 19086-4 abgedeckt werden.","ISO/IEC 27002:2017-06","5.21;5.22"
+"24","5.24","Rollen und Verantwortlichkeiten
+Die Organisation sollte geeignete Prozesse für die Handhabung von Informationssicherheitsvorfällen einrichten. Die Rollen und Verantwortlichkeiten für die Durchführung der Verfahren zur Bewältigung von Vorfällen sollten festgelegt und den relevanten internen und externen interessierten Parteien wirksam mitgeteilt werden.
+Folgendes sollte berücksichtigt werden:
+a) Einführung eines gemeinsamen Verfahrens für die Meldung von Informationssicherheitsereignissen, einschließlich einer Kontaktstelle (siehe 6.8);
+b) Einrichtung eines Prozesses für das Management von Vorfällen, um die Organisation in die Lage zu versetzen, Informationssicherheitsvorfälle zu bewältigen, einschließlich Verwaltung, Dokumentation, Erkennung, Sichtung, Priorisierung, Analyse, Kommunikation und der Koordinierung der beteiligten Parteien;
+c) Einrichtung eines Verfahrens zur Reaktion auf Vorfälle, um die Organisation in die Lage zu versetzen, Informationssicherheitsvorfälle zu beurteilen, auf sie zu reagieren und daraus zu lernen;
+d) nur kompetente Beschäftigte die Themen in Bezug auf Informationssicherheitsvorfälle innerhalb der Organisation bearbeiten lassen. Dieses Personal sollte eine Verfahrensdokumentation erhalten und regelmäßig geschult werden;
+e) Einführung eines Verfahrens zur Ermittlung der erforderlichen Ausbildung, Zertifizierung und ständigen beruflichen Weiterbildung für das Personal, das auf Vorfälle reagiert.                  
+
+Verfahren für das Management von Vorfällen
+Die Ziele der Handhabung von Informationssicherheitsvorfällen sollten mit der Leitung abgestimmt werden, und es sollte sichergestellt werden, dass die für die Handhabung von Informationssicherheitsvorfällen verantwortlichen Personen sich der Prioritäten der Organisation bei der Handhabung von Informationssicherheitsvorfällen bewusst sind, einschließlich des Zeitrahmens für die Lösung des Problems auf der Grundlage der möglichen Folgen und des Schweregrads. Um diese Ziele und Prioritäten zu erreichen, sollten Verfahren für das Management von Vorfällen eingeführt werden.
+Die Leitung sollte sicherstellen, dass ein Plan für die Handhabung von Informationssicherheitsvorfällen erstellt wird, der verschiedene Szenarien berücksichtigt, und dass Verfahren für die folgenden Aktivitäten entwickelt und umgesetzt werden:
+a) Bewertung von Informationssicherheitsereignissen anhand von Kriterien dafür, was einen Informationssicherheitsvorfall darstellt;
+b) Überwachung (siehe 8.15 und 8.16), Erkennung (siehe 8.16), Klassifizierung (siehe 5.25), Analyse und Meldung (siehe 6.8) von Informationssicherheitsereignissen und Informationssicherheitsvorfällen (durch menschliche oder automatische Mittel);
+c) Handhabung von Informationssicherheitsvorfällen bis zum Abschluss, einschließlich Reaktion und Eskalation (siehe 5.26), je nach Art und Kategorie des Vorfalls, mögliche Aktivierung des Krisen-managements und Aktivierung von Plänen zur Aufrechterhaltung, kontrollierte Wiederherstellung nach einem Vorfall und Kommunikation mit internen und externen interessierten Parteien;
+d) Koordination mit internen und externen Interessenten wie Behörden, externen Interessengruppen und Foren, Lieferanten und Kunden (siehe 5.5 und 5.6);
+e) Protokollierung der Tätigkeiten bei der Handhabung von Vorfällen;
+f) Umgang mit Beweismaterial (siehe 5.28);
+g) Ursachenanalyse oder Post-Mortem-Verfahren;
+h) Ermittlung der gewonnenen Erkenntnisse und der erforderlichen Verbesserungen der Verfahren für das Management von Vorfällen oder der Maßnahmen für die Informationssicherheit im Allgemeinen.
+
+Meldeverfahren
+Meldeverfahren sollten Folgendes beinhalten:
+a) Schritte, die im Falle eines Informationssicherheitsereignisses zu ergreifen sind (z. B. unverzügliches Festhalten aller sachdienlichen Details wie auftretende Störungen und Meldungen auf dem Bildschirm, unverzügliche Meldung an die Kontaktstelle und nur koordinierte Aktionen);
+b) Verwendung von Formularen zur Unterstützung des Personals bei der Durchführung aller erforderlichen Schritte zur Meldung von Informationssicherheitsvorfällen;
+c) geeignete Rückmeldungsprozesse, um sicherzustellen, dass Personen, die Informationssicherheits-ereignisse gemeldet haben, soweit möglich über die Ergebnisse informiert werden, nachdem das Problem behandelt und abgeschlossen wurde;
+d) Erstellung von Vorfallsberichten.                                                         
+Externe Anforderungen an die Meldung von Vorfällen an relevante interessierte Parteien innerhalb des festgelegten Zeitrahmens (z. B. Meldepflichten gegenüber Aufsichtsbehörden) sollten bei der Implementierung von Verfahren für die Handhabung von Vorfällen berücksichtigt werden.
+
+Weitere Informationen
+Informationssicherheitsvorfälle können Organisations- und Ländergrenzen überschreiten. Um auf derartige Vorfälle zu reagieren, ist es von Vorteil, die Reaktion zu koordinieren und Informationen über diese Vorfälle gegebenenfalls mit externen Organisationen auszutauschen.
+Eine ausführliche Anleitung zur Handhabung von Informationssicherheitsvorfällen kann der Normenreihe ISO/IEC 27035 entnommen werden.","ISO/IEC 27002:2017-06","6.8;8.15;8.16;5.25;5.26;5.5;5.6;5.28"
+"25","5.25","Es sollte ein Schema zur Kategorisierung und Priorisierung von Informationssicherheitsvorfällen vereinbart werden, um die Folgen und die Priorität eines Vorfalls zu ermitteln. Das System sollte die Kriterien für die Einstufung von Ereignissen als Informationssicherheitsvorfälle enthalten. Die Kontaktstelle sollte jedes Informationssicherheitsereignis anhand des vereinbarten Schemas beurteilen.
+Das für die Koordinierung und Reaktion bei Informationssicherheitsvorfällen zuständige Personal sollte die Beurteilung durchführen und eine Entscheidung über Informationssicherheitsereignisse treffen.
+Die Ergebnisse der Beurteilung und Entscheidung sollten ausführlich aufgezeichnet werden, damit für spätere Bezugnahme und Verifizierung darauf zurückgegriffen werden kann.
+
+Weitere Informationen
+Die Normenreihe ISO/IEC 27035 enthält weitere Anleitungen zur Handhabung von Vorfällen.","ISO/IEC 27002:2017-06",NA
+"26","5.26","Die Organisation sollte Verfahren für die Reaktion auf Vorfälle im Bereich der Informationssicherheit einführen und allen betroffenen interessierten Parteien mitteilen.
+Auf Informationssicherheitsvorfälle sollte von einem benannten Team mit der erforderlichen Kompetenz reagiert werden (siehe 5.24).
+Die Reaktion sollte die folgenden Punkte umfassen:
+a) Eindämmen der von dem Vorfall betroffenen Systeme, wenn sich die Folgen des Vorfalls ausbreiten können;
+b) möglichst frühzeitiges Sammeln von Beweismaterial (siehe 5.28) nach dem Vorkommnis;
+c) Eskalation, falls erforderlich, einschließlich Krisenmanagementaktivitäten und möglicherweise Inanspruchnahme von Business-Continuity-Plänen (siehe 5.29 und 5.30);
+d) Sicherstellung, dass alle durchgeführten Abhilfeaktivitäten zur späteren Analyse ordnungsgemäß protokolliert werden;
+e) Mitteilung des aufgetretenen Informationssicherheitsvorfalls bzw. jedweder relevanter Details an alle relevanten internen und externen interessierten Parteien nach dem Grundsatz „Kenntnis nur, wenn nötig“;
+f) Koordinierung mit internen und externen Parteien wie Behörden, externen Interessengruppen und Foren, Lieferanten und Kunden, um die Wirksamkeit der Maßnahmen zu verbessern und die Folgen für andere Organisationen zu minimieren;
+g) formelle(r) Abschluss und Dokumentierung nach erfolgreicher Behandlung des Vorfalls;
+h) Durchführung einer forensischen Informationssicherheitsanalyse, sofern erforderlich (siehe 5.28);
+i) Durchführung einer Analyse nach einem Vorfall, um die Ursache zu ermitteln. Es wird sichergestellt, dass sie nach den festgelegten Verfahren dokumentiert und weitergegeben wird (siehe 5.27);        
+j) Identifizierung und Behebung von Schwachstellen in der Informationssicherheit, einschließlich der Schwachstellen in Bezug auf Maßnahmen, die den Vorfall verursacht, zu ihm beigetragen oder ihn nicht verhindert haben.
+
+Weitere Informationen
+Die Normenreihe ISO/IEC 27035 enthält weitere Anleitungen zur Handhabung von Vorfällen.","ISO/IEC 27002:2017-06","5.24;5.27;5.28;5.29;5.30"
+"27","5.27","Die Organisation sollte Verfahren zur Quantifizierung und Überwachung von Art, Umfang und Kosten von Informationssicherheitsvorfällen einführen.
+Die durch die Bewertung von Informationssicherheitsvorfällen erhaltenen Informationen sollten dazu verwendet werden,
+a) den Plan für die Handhabung von Vorfällen zu verbessern, einschließlich der Szenarien und Verfahren für Vorfälle (siehe 5.24);
+b) wiederkehrende oder schwerwiegende Vorfälle und deren Ursachen zu identifizieren, um die Risikobeurteilung der Organisation in Bezug auf die Informationssicherheit zu aktualisieren und die notwendigen zusätzlichen Maßnahmen zur Verringerung der Wahrscheinlichkeit oder der Folgen künftiger ähnlicher Vorfälle zu bestimmen und umzusetzen. Zu den Mechanismen, die dies ermöglichen, gehören die Erfassung, Quantifizierung und Überwachung von Informationen über Art, Umfang und Kosten von Vorfällen;
+c) die Sensibilisierung und Schulung der Nutzer (siehe 6.3) zu verbessern, indem Beispiele dafür gegeben werden, was passieren kann, wie auf solche Vorfälle zu reagieren ist und wie sie in Zukunft vermieden werden können.
+
+Weitere Informationen
+Die Normenreihe ISO/IEC 27035 enthält weitere Anleitungen.","ISO/IEC 27002:2017-06","5.24;6.3"
+"28","5.28","Es sollten interne Verfahren zum Umgang mit Beweismaterial im Zusammenhang mit Informations-sicherheitsereignissen für die Zwecke von Maßregelungsmaßnahmen und gerichtlichen Schritten entwickelt und angewendet werden. Die Anforderungen der verschiedenen Rechtsordnungen sollten beachtet werden, damit die Wahrscheinlichkeit der rechtsordnungsübergreifenden Anerkennung möglichst groß ist.
+Allgemein sollten diese Verfahren für die Verwaltung von Beweismaterial Anweisungen zur Identifizierung, Sammlung, Beschaffung und Aufbewahrung von Beweismitteln entsprechend den verschiedenen Arten von Speichermedien, Geräten und Gerätestatus (d. h. ein- oder ausgeschaltet) bereitstellen. Die Beweismittel müssen in der Regel so gesammelt werden, dass es vor den zuständigen nationalen Gerichten oder einem anderen Disziplinarorgan zulässig ist. Es sollte möglich sein, zu zeigen, dass
+a) die Aufzeichnungen vollständig sind und in keiner Weise manipuliert wurden,
+b) Kopien von elektronischem Beweismaterial wahrscheinlich mit den Originalen identisch sind,
+c) alle Informationssysteme, aus denen Beweismaterial entnommen wurde, zum Zeitpunkt der Aufzeichnung des Beweismaterials ordnungsgemäß funktioniert haben.
+Sofern verfügbar, sollte auf Zertifizierungen oder andere relevante Qualifizierungsmittel für Beschäftigte und Werkzeuge zurückgegriffen werden, um den Wert des aufbewahrten Beweismaterials zu unterstreichen.
+Digitales Beweismaterial kann mehrere Organisationen oder Rechtsordnungen berühren. In derartigen Fällen sollte sichergestellt werden, dass die Organisation befugt ist, die erforderlichen Informationen als digitales Beweismaterial zu sammeln.
+
+Weitere Informationen
+Wird ein Informationssicherheitsereignis erstmals erkannt, ist nicht immer absehbar, ob das Ereignis zu einem gerichtlichen Vorgehen führen wird. Daher besteht die Gefahr, dass notwendiges Beweismaterial vorsätzlich oder versehentlich zerstört wird, bevor die Schwere des Vorfalls erkannt wurde. Es ist ratsam, beim Erwägen rechtlicher Schritte frühzeitig einen Rechtsbeistand oder die Strafverfolgungsbehörden hinzuzuziehen und Beratung bezüglich des erforderlichen Beweismaterials einzuholen.                                                                                                   
+ISO/IEC 27037 enthält Definitionen und Leitlinien zur Ermittlung, Sammlung, Beschaffung und Aufbewahrung digitalen Beweismaterials.
+Die Normenreihe ISO/IEC 27050 befasst sich mit der elektronischen Beweisführung, d. h. mit der Verarbeitung elektronisch gespeicherter Informationen als Beweismaterial.","ISO/IEC 27002:2017-06",NA
+"29","5.29","Die Organisation sollte ihre Anforderungen für die Anpassung der Informationssicherheitsmaßnahmen während einer Störung bestimmen. Die Anforderungen an die Informationssicherheit sollten in die Prozesse des Business-Continuity-Managements einbezogen werden.
+Es sollten Pläne zur Aufrechterhaltung oder Wiederherstellung der Informationssicherheit kritischer Geschäftsprozesse nach einer Störung oder einem Ausfall entwickelt, umgesetzt, geprüft, überarbeitet und bewertet werden. Die Sicherheit der Informationen sollte auf der erforderlichen Stufe und innerhalb des erforderlichen Zeitrahmens wiederhergestellt werden.
+Die Organisation sollte Folgendes umsetzen und aufrechterhalten:
+a) Maßnahmen zur Informationssicherheit, unterstützende Systeme und Instrumente im Rahmen von Plänen zur Aufrechterhaltung des Geschäftsbetriebs und der IKT-Kontinuität;
+b) Prozesse zur Aufrechterhaltung der bestehenden Informationssicherheitsmaßnahmen bei einer Störung;
+c) Ersatzmaßnahmen für Informationssicherheitsmaßnahmen, die bei einer Störung nicht aufrechterhalten werden können.
+
+Weitere Informationen
+Im Zusammenhang mit der Planung der Business-Continuity und der IKT-Kontinuität kann es erforderlich sein, die Anforderungen an die Informationssicherheit je nach Art der Störung im Vergleich zu normalen Betriebsbedingungen anzupassen. Im Rahmen der Analyse der Auswirkungen auf das Geschäft und der Risikobeurteilung, die im Rahmen des Business-Continuity-Managements durchgeführt wird, sollten die Folgen des Verlusts der Vertraulichkeit und Integrität von Informationen zusätzlich zur Notwendigkeit der Aufrechterhaltung der Verfügbarkeit berücksichtigt und priorisiert werden.                                                    
+Informationen zu Business-Continuity-Management-Systemen können ISO 22301 und ISO 22313 entnommen werden. Weitere Anleitungen zur Analyse der Auswirkungen auf das Geschäft (BIA, en: business impact analysis) sind in ISO/TS 22317 zu finden.","ISO/IEC 27002:2017-06",NA
+"30","5.30","Die IKT-Bereitschaft für Business-Continuity ist ein wichtiger Bestandteil des Managements der Geschäftskontinuität und der Informationssicherheit, um sicherzustellen, dass die Ziele der Organisation während einer Störung weiterhin erreicht werden können.
+Die Anforderungen an die IKT-Kontinuität sind das Ergebnis der Analyse der geschäftlichen Auswirkungen (BIA). Der BIA-Prozess sollte Auswirkungsarten und -kriterien verwenden, um die Auswirkungen zu beurteilen, die sich im Laufe der Zeit aus der Störung von Geschäftsaktivitäten ergeben, die Produkte und Dienstleistungen liefern. Anhand des Ausmaßes und der Dauer der daraus resultierenden Auswirkungen sollten vorrangige Aktivitäten ermittelt werden, denen eine Wiederherstellungsdauer (RTO) zugewiesen werden sollte. Die BIA sollte dann festlegen, welche Ressourcen zur Unterstützung der priorisierten Betriebstätigkeiten benötigt werden. Auch für diese Ressourcen sollte eine RTO angegeben werden. Eine Teilmenge dieser Ressourcen sollte IKT-Dienste umfassen.
+Die BIA, die IKT-Dienste einbezieht, kann erweitert werden, um die Leistungs- und Kapazitätsanforderungen von IKT-Systemen und Wiederherstellungspunkte (RPO) von Informationen zu definieren, die zur Unterstützung von Aktivitäten während einer Störung erforderlich sind.
+Auf der Grundlage der Ergebnisse der BIA und der Risikobeurteilung unter Einschluss von IKT-Diensten sollte die Organisation IKT-Kontinuitätsstrategien ermitteln und auswählen, die Optionen für die Zeit vor, während und nach einer Störung berücksichtigen. Die Strategien zur Aufrechterhaltung des Geschäftsbetriebs können eine oder mehrere Lösungen umfassen. Auf der Grundlage der Strategien sollten Pläne entwickelt, umgesetzt und geprüft werden, um nach einer Störung oder einem Ausfall kritischer Prozesse die erforderliche Verfügbarkeit von IKT-Diensten innerhalb des erforderlichen Zeitrahmens herzustellen.
+Die Organisation sollte sicherstellen, dass:
+a) eine angemessene Organisationsstruktur zur Vorbereitung, Eindämmung und Reaktion in Bezug auf eine Störung vorhanden ist, die durch Personal mit der erforderlichen Verantwortung, Befugnis und Kompetenz unterstützt wird;
+b) IKT-Kontinuitätspläne, einschließlich Reaktions- und Wiederherstellungsverfahren, die detailliert beschreiben, wie die Organisation mit einer Störung der IKT-Dienste umzugehen gedenkt:                                                                                                         
+1) regelmäßig durch Übungen und Prüfungen bewertet werden;
+2) von der Leitung genehmigt sind;
+c) die IKT-Kontinuitätspläne die folgenden Informationen zur IKT-Kontinuität enthalten:
+1) Leistungs- und Kapazitätsspezifikationen zur Erfüllung der in der BIA festgelegten Anforderungen und Ziele der Aufrechterhaltung der Betriebsfähigkeit;
+2) RTO der einzelnen priorisierten IKT-Dienste und die Verfahren zur Wiederherstellung dieser Komponenten;
+3) RPO der priorisierten IKT-Ressourcen, die als Informationen definiert sind, und die Verfahren zur Wiederherstellung der Informationen.
+
+Weitere Informationen
+Die Verwaltung der IKT-Kontinuität ist ein wesentlicher Bestandteil der Anforderungen an die Business-Continuity in Bezug auf die Verfügbarkeit, um in der Lage zu sein:
+a) auf Störungen von IKT-Diensten unabhängig von deren Ursache zu reagieren und sie zu beheben;
+b) sicherzustellen, dass die Kontinuität der priorisierten Betriebstätigkeit durch die erforderlichen IKT-Dienste unterstützt wird;
+c) zu reagieren, bevor es zu einer Störung der IKT-Dienste kommt, und wenn mindestens ein Vorfall festgestellt wird, der zu einer Störung der IKT-Dienste führen kann.
+Weitere Anleitungen zur IKT-Bereitschaft für Business-Continuity sind in ISO/IEC 27031 zu finden.
+Weitere Anleitungen zum Business-Continuity-Management können ISO 22301 und ISO 22313 entnommen werden.
+Weitere Anleitungen zur BIA sind in ISO/TS 22317 zu finden.","ISO/IEC 27002:2017-06",NA
+"31","5.31","Externe Anforderungen, einschließlich rechtlicher, gesetzlicher, regulatorischer oder vertraglicher Anforderungen, sollten berücksichtigt werden:
+a) bei der Entwicklung von Richtlinien und Verfahren für die Informationssicherheit;
+b) bei der Gestaltung, Implementierung oder Änderung von Informationssicherheitsmaßnahmen;
+c) bei der Klassifizierung von Informationen und anderen damit verbundenen Werten als Teil des Prozesses zur Festlegung von Anforderungen an die Informationssicherheit für den internen Bedarf oder für Lieferantenvereinbarungen;
+d) bei der Durchführung von Risikobeurteilungen der Informationssicherheit und Festlegung von Maßnahmen zur Behandlung von Risiken der Informationssicherheit;
+e) bei der Festlegung von Prozessen sowie der damit verbundenen Rollen und Verantwortlichkeiten im Bereich der Informationssicherheit;
+f) bei der Bestimmung der vertraglichen Anforderungen der Lieferanten, die für die Organisation und den Umfang der Lieferung von Produkten und Dienstleistungen relevant sind.
+
+Gesetzgebung und Vorschriften
+Die Organisation sollte:
+a) alle für die Informationssicherheit der Organisation relevanten Gesetze und Vorschriften ermitteln, um sich über die Anforderungen für ihre Art von Geschäft im Klaren zu sein;
+b) die Einhaltung der Vorschriften in allen relevanten Ländern berücksichtigen, wenn die Organisation:
+— Geschäfte in anderen Ländern tätigt;
+— Produkte und Dienstleistungen aus anderen Ländern nutzt, in denen Gesetze und Vorschriften die Organisation beeinflussen können;
+— Informationen über Gerichtsbarkeitsgrenzen hinweg überträgt, wobei Gesetze und Vorschriften das Unternehmen beeinflussen können;
+c) die ermittelten Rechtsvorschriften und Regelungen regelmäßig überprüfen, um über die Änderungen auf dem Laufenden zu bleiben und neue Rechtsvorschriften zu ermitteln;
+d) die spezifischen Prozesse und individuellen Verantwortlichkeiten zur Erfüllung dieser Anforderungen festlegen und dokumentieren.                                                                                  Kryptographie
+Die Kryptographie ist ein Bereich, für den häufig besondere rechtliche Anforderungen gelten. Die Einhaltung der einschlägigen Vereinbarungen, Gesetze und Vorschriften in Bezug auf die folgenden Punkte sollte berücksichtigt werden:
+a) Beschränkungen bezüglich des Imports oder Exports von Computer-Hardware und -Software zur Durchführung kryptographischer Funktionen;
+b) Beschränkungen bezüglich des Imports oder Exports von Computer-Hardware und -Software, die für die Hinzufügung kryptographischer Funktionen ausgelegt ist;
+c) Beschränkungen bezüglich der Anwendung der Kryptographie;
+d) verpflichtende oder freiwillige Verfahren für den Zugriff der Behörden der Länder auf verschlüsselte Informationen;
+e) die Gültigkeit von digitalen Signaturen, Siegeln und Zertifikaten.
+Es wird empfohlen, sich rechtlich beraten zu lassen, wenn es darum geht, die Einhaltung einschlägiger Gesetze und Vorschriften sicherzustellen, insbesondere wenn verschlüsselte Informationen oder Kryptographie-Tools über Ländergrenzen hinweg transportiert werden.
+
+Verträge
+Zu den vertraglichen Anforderungen in Bezug auf die Informationssicherheit sollten u. a. gehören:
+a) die in den Verträgen mit Kunden genannten;
+b) die in den Verträgen mit Lieferanten genannten (siehe 5.20);
+c) die in Versicherungsverträgen genannten.","ISO/IEC 27002:2017-06","5.20"
+"32","5.32","Die folgenden Leitlinien sollten zum Schutz von jedwedem Material berücksichtigt werden, das als geistiges Eigentum betrachtet werden kann:
+a) Festlegung und Bekanntgabe einer themenspezifischen Richtlinie zum Schutz der Rechte an geistigem Eigentum;
+b) Veröffentlichung von Verfahren zur Einhaltung von Rechten an geistigem Eigentum, die die vorschriftsmäßige Nutzung von Software und Informationsprodukten festlegen;
+c) Bezug von Software nur über bekannte und seriöse Quellen, um sicherzustellen, dass das Urheberrecht nicht verletzt wird;
+d) Führen entsprechender Werteregister und Feststellung aller Werte mit Schutzanforderungen bezüglich der geistigen Eigentumsrechte;
+e) Aufbewahrung von Nachweisen und Beweismaterial für die Inhaberschaft von Lizenzen, Handbüchern usw.;
+f) Sicherstellung, dass die im Rahmen der Lizenz zulässige Höchstzahl von Benutzern oder Ressourcen [z. B. Prozessoren (CPUs)] nicht überschritten wird;
+g) Durchführung von Überprüfungen, um sicherzustellen, dass nur genehmigte Software und lizenzierte Produkte installiert sind;
+h) Bereitstellung von Verfahren zur Einhaltung der entsprechenden Lizenzbedingungen;
+i) Bereitstellung von Verfahren zur Veräußerung, Entsorgung oder Weitergabe von Software an andere;
+j) Einhaltung der Bedingungen und Konditionen in Bezug auf Software und Informationen, die aus öffentlichen Netzen und externen Quellen stammen;
+k) keine Vervielfältigung, Formatkonvertierung oder Verwendung von Auszügen kommerzieller Aufzeichnungen (Video, Audio), die nach dem Urheberrecht oder den geltenden Lizenzen untersagt ist;
+l) keine Anfertigung von vollständigen oder auszugsweisen Kopien von Normen (z. B. ISO/IEC Internationale Normen), Büchern, Artikeln, Berichten oder anderen Dokumenten, die nach dem Urheberrecht oder den geltenden Lizenzen untersagt ist.
+
+Weitere Informationen
+Die geistigen Eigentumsrechte beinhalten das Urheberrecht an Software und Dokumenten, Geschmacksmustern, Markenzeichen, Patenten und Quellcode-Lizenzen.
+Urheberrechtlich geschützte Software-Produkte unterliegen üblicherweise einer Lizenzvereinbarung, in der die Lizenzbedingungen festgelegt sind, die beispielsweise die Nutzung der Produkte auf bestimmte Geräte beschränken oder nur die Vervielfältigung zur Erstellung von Backup-Kopien gestatten. Siehe die Normenreihe ISO/IEC 19770 für Einzelheiten zum Management von IT-Werten.                                                                    
+Die Daten können aus externen Quellen bezogen werden. Im Allgemeinen werden solche Daten im Rahmen einer Vereinbarung über die gemeinsame Nutzung von Daten oder eines ähnlichen Rechtsinstruments erhoben. Aus solchen Vereinbarungen über die gemeinsame Nutzung von Daten sollte klar hervorgehen, welche Verarbeitung der erworbenen Daten zulässig ist. Es ist auch ratsam, dass die Herkunft der Daten klar angegeben wird. Siehe ISO/IEC 23751 für Einzelheiten zu Vereinbarungen über die gemeinsame Nutzung von Daten.
+Juristische, gesetzliche, regulatorische und vertragliche Anforderungen können Beschränkungen bezüglich des Kopierens urheberrechtlich geschützten Materials beinhalten. Insbesondere kann die Anforderung existieren, dass nur Material verwendet werden darf, das von der Organisation entwickelt oder vom Entwickler an die Organisation lizenziert bzw. ihr zur Verfügung gestellt wird. Urheberrechtsverstöße können rechtliche Schritte zur Folge haben, einschließlich der Verhängung von Bußgeldern und einer strafrechtlichen Verfolgung.
+Abgesehen davon, dass die Organisation ihre Verpflichtungen gegenüber den Rechten am geistigen Eigentum Dritter einhalten muss, sollte auch das Risiko berücksichtigt werden, dass Personal und Dritte die Rechte der Organisation an deren eigenem geistigen Eigentum verletzen.","ISO/IEC 27002:2017-06",NA
+"33","5.33","Die Organisation sollte die folgenden Schritte unternehmen, um die Authentizität, Zuverlässigkeit, Integrität und Verwendbarkeit von Aufzeichnungen zu schützen, da sich der geschäftliche Kontext und die Anforderungen an ihre Verwaltung im Laufe der Zeit ändern:
+a) Herausgabe von Leitlinien für die Aufbewahrung, den Umgang mit der Nachweiskette und die Entsorgung von Aufzeichnungen, die auch die Verhinderung der Manipulation von Aufzeichnungen umfassen. Diese Leitlinien sollten mit den themenspezifischen Richtlinien der Organisation zur Verwaltung von Aufzeichnungen und anderen Anforderungen an Aufzeichnungen abgestimmt werden;
+b) Erstellung eines Zeitplans für die Aufbewahrung von Aufzeichnungen und den Zeitraum, in dem sie aufbewahrt werden müssen.                                                                                                         
+Das System zur Speicherung- und Handhabung sollte die Kennzeichnung von Aufzeichnungen und ihrer Aufbewahrungsfrist unter Berücksichtigung nationaler oder regionaler Gesetze oder Verordnungen sowie, sofern zutreffend, der Erwartungen der Gemeinschaft oder der Gesellschaft sicherstellen. Dieses System sollte die entsprechende Vernichtung von Aufzeichnungen nach Ablauf dieser Frist ermöglichen, falls die Organisation sie nicht mehr benötigt.
+Bei der Entscheidung über den Schutz bestimmter Aufzeichnungen der Organisation sollten die entsprechenden Klassifizierungen der Informationssicherheit auf Grundlage des Klassifizierungsschemas der Organisation berücksichtigt werden. Die Aufzeichnungen sollten nach Aufzeichnungsarten kategorisiert werden (z. B. Geschäftsbücher, Aufzeichnungen über Geschäftsvorgänge, Personalaufzeichnungen, rechtliche Aufzeichnungen), jeweils mit Angaben zu den Aufbewahrungsfristen und der Art der zulässigen Speichermedien, die physisch oder elektronisch sein können.
+Datenspeichersysteme sollten so ausgewählt werden, dass die benötigten Aufzeichnungen in Abhängigkeit von den zu erfüllenden Anforderungen innerhalb eines vertretbaren Zeitrahmens und im gewünschten Format abgerufen werden können.
+Bei der Wahl elektronischer Speichermedien sollten Verfahren festgelegt werden, durch die der Zugriff auf die Aufzeichnungen (hinsichtlich der Lesbarkeit der Speichermedien als auch des Formats) über den gesamten Aufbewahrungszeitraum sichergestellt ist, um vor Datenverlust aufgrund zukünftiger technischer Veränderungen geschützt zu sein. Alle kryptographischen Schlüssel und Programme, die für verschlüsselte Archive oder digitale Signaturen benötigt werden, sollten ebenfalls aufbewahrt werden, um eine Entschlüsselung der Aufzeichnungen für den Zeitraum ihrer Aufbewahrung (siehe 8.24) zu ermöglichen.
+Die Verfahren zu Speicherung und Umgang sollten entsprechend den Empfehlungen der Hersteller von Speichermedien durchgeführt werden. Es sollte die Möglichkeit der Verschlechterung der für die Speicherung der Aufzeichnungen verwendeten Medien in Betracht gezogen werden.
+
+Weitere Informationen
+Aufzeichnungen dokumentieren einzelne Ereignisse oder Transaktionen oder können Aggregationen bilden, die zur Dokumentation von Arbeitsabläufen, Aktivitäten oder Funktionen konzipiert wurden. Sie sind sowohl ein Beweis für geschäftliche Aktivitäten als auch ein Informationswert. Jede Information, unabhängig von ihrer Struktur oder Form, kann als Aufzeichnung verwaltet werden. Dazu gehören Informationen in Form eines Dokuments, einer Datensammlung oder anderer Arten von digitalen oder analogen Informationen, die im Rahmen der Geschäftstätigkeit erstellt, erfasst und verwaltet werden.
+Bei der Verwaltung von Aufzeichnungen handelt es sich bei Metadaten um Daten, die den Kontext, den Inhalt und die Struktur von Aufzeichnungen sowie deren Verwaltung im Laufe der Zeit beschreiben. Metadaten sind ein wesentlicher Bestandteil eines jeden Datensatzes.
+Es kann notwendig sein, einige Aufzeichnungen sicher aufzubewahren, um juristische, gesetzliche, regulatorische bzw. vertragliche Anforderungen zu erfüllen und um wesentliche Geschäftsaktivitäten zu unterstützen. Der Aufbewahrungszeitraum und den Dateninhalt der aufzubewahrenden Informationen können durch nationale Gesetze oder Bestimmungen vorgegeben sein. Weitere Informationen zum Umgang mit den Aufzeichnungen können ISO 15489 entnommen werden.","ISO/IEC 27002:2017-06","8.24"
+"34","5.34","Die Organisation sollte eine themenspezifische Richtlinie zum Schutz der Privatsphäre und zum Schutz personenbezogener Daten einführen und allen relevanten interessierten Parteien mitteilen.
+Die Organisation sollte Verfahren zur Wahrung der Privatsphäre und zum Schutz personenbezogener Daten entwickeln und umsetzen. Diese Verfahren sollten allen relevanten interessierten Parteien mitgeteilt werden, die in die Verarbeitung personenbezogener Informationen einbezogen sind.
+Die Einhaltung dieser Verfahren und aller einschlägigen Gesetze und Vorschriften zur Wahrung der Privatsphäre und zum Schutz personenbezogener Daten erfordert angemessene Rollen, Verantwortlichkeiten und Maßnahmen. Am besten kann dies meist durch Benennung einer dafür zuständigen Person, wie eines Datenschutzbeauftragten, erreicht werden, die dem Personal, den Dienstleistern und anderen interessierten Parteien eine Richtschnur hinsichtlich ihrer jeweiligen Verantwortungsbereiche sowie der Verfahren vorgibt, die jeweils eingehalten werden sollten.
+Die Verantwortung für den Umgang mit personenbezogenen Daten sollte unter Berücksichtigung der einschlägigen Gesetze und Vorschriften geregelt werden.
+Es sollten geeignete technische und organisatorische Maßnahmen zum Schutz personenbezogener Daten umgesetzt werden.
+
+Weitere Informationen
+Einige Länder haben Gesetze erlassen, die Maßnahmen zur Erhebung, Verarbeitung, Übermittlung und Löschung personenbezogener Daten einfordern. In Abhängigkeit von den jeweiligen nationalen Gesetzen können derartige Maßnahmen die Auferlegung bestimmter Pflichten bei der Erhebung, Verarbeitung und Weitergabe personenbezogener Daten sowie eine Einschränkung der Befugnis zur Übermittlung von pbD in andere Länder beinhalten.
+ISO/IEC 29100 bietet einen groben Rahmen für den Schutz personenbezogener Informationen innerhalb von IKT-Systemen. Weitere Informationen über Datenschutz-Informationsmanagementsysteme sind in ISO/IEC 27701 zu finden. Spezifische Angaben zum Datenschutzmanagement für öffentliche Clouds, die als Auftragsdatenverarbeiter fungieren, können ISO/IEC 27018 entnommen werden.                                        
+ISO/IEC 29134 enthält Leitlinien für die Datenschutz-Folgenabschätzung (DSFA) und gibt ein Beispiel für die Struktur und den Inhalt eines DSFA-Berichts. Im Vergleich zu ISO/IEC 27005 ist diese Norm auf die Verarbeitung personenbezogener Daten ausgerichtet und für Organisationen relevant, die personenbezogene Daten verarbeiten. Dies kann dazu beitragen, Risiken für die Privatsphäre und mögliche Abhilfemaßnahmen zu ermitteln, um diese Risiken auf ein annehmbares Niveau zu reduzieren.","ISO/IEC 27002:2017-06",NA
+"35","5.35","Die Organisation sollte über Verfahren zur Durchführung unabhängiger Überprüfungen verfügen.
+Die Leitung sollte regelmäßige unabhängige Überprüfungen planen und veranlassen. Diese Überprüfungen sollten eine Beurteilung von Verbesserungsmöglichkeiten und ggf. vorhandenem Änderungsbedarf bezüglich des Informationssicherheitsansatzes einschließlich der Informationssicherheitspolitik, themenspezifischer Richtlinien und anderer Maßnahmen beinhalten.
+Diese Überprüfungen sollten von Personen durchgeführt werden, die unabhängig vom untersuchten Bereich sind (z. B. ein interner Auditor, ein unabhängiger Manager oder eine externe Organisation, die sich auf derartige Prüfungen spezialisiert hat). Die diese Prüfungen durchführenden Personen sollten über entsprechende Kompetenzen verfügen. Die Person, die die Überprüfungen durchführt, sollte nicht in der Hierarchie stehen, um sicherzustellen, dass sie die nötige Unabhängigkeit hat, um eine Beurteilung vorzunehmen.
+Die Ergebnisse der unabhängigen Prüfungen sollten dem Management, das die Prüfungen veranlasst hat, und gegebenenfalls der obersten Leitung berichtet werden. Diese Aufzeichnungen sollten aufbewahrt werden.
+Sollten bei den unabhängigen Prüfungen festgestellt werden, dass der Informationssicherheitsmanagement-Ansatz der Organisation und dessen Umsetzung nicht angemessen sind, [weil z. B. dokumentierte Ziele und Anforderungen nicht eingehalten werden oder nicht der in der Informationssicherheitspolitik und den themenspezifischen Richtlinien (siehe 5.1) festgelegten Richtung entsprechen] sollte die Leitung Korrekturmaßnahmen veranlassen.                                                                                                 
+
+Zusätzlich zu den regelmäßigen unabhängigen Überprüfungen sollte die Organisation erwägen, unabhängige Überprüfungen durchzuführen, wenn:
+a) Gesetze und Vorschriften, die die Organisation betreffen, sich ändern;
+b) signifikante Vorfälle auftreten;
+c) die Organisation ein neues Geschäft eröffnet oder ein bestehendes Geschäft ändert;
+d) die Organisation ein neues Produkt oder eine neue Dienstleistung einsetzt oder den Einsatz eines bestehenden Produkts oder einer bestehenden Dienstleistung ändert;
+e) die Organisation Informationssicherheitsmaßnahmen und -verfahren erheblich ändert.
+
+Weitere Informationen
+ISO/IEC 27007 und ISO/IEC TS 27008 bieten eine Anleitung zur Durchführung unabhängiger Überprüfungen.","ISO/IEC 27002:2017-06","5.1"
+"36","5.36","Leitende Angestellte, Dienstleistungs-, Produkt- oder Informationseigentümer sollten festlegen, wie die Einhaltung von in der Informationssicherheitspolitik, in themenspezifischen Richtlinien, Regeln, Normen und anderen geltenden Vorschriften festgelegten Informationssicherheitsanforderungen überprüft wird. Automatische Werkzeuge zur Bewertung und Berichterstattung sollten bei einer effizienten, regelmäßigen Prüfung berücksichtigt werden.
+Falls bei der Prüfung eine Nichtübereinstimmung festgestellt wird, sollten die leitenden Angestellten die folgenden Maßnahmen ergreifen:
+a) Feststellung der Ursachen der Nichtübereinstimmung;
+b) Beurteilung, ob Korrekturmaßnahmen zur Herstellung der Compliance erforderlich sind;                                                                    
+c) Umsetzung geeigneter Korrekturmaßnahmen;
+d) Prüfung der unternommenen Korrekturmaßnahmen, um deren Wirksamkeit zu verifizieren und jedwede Defizite oder Schwachstellen festzustellen.
+Die Ergebnisse der von den Managern, Dienstleistungs-, Produkt- oder Informationseigentümern durchgeführten Prüfungen und Korrekturmaßnahmen sollten aufgezeichnet und die Aufzeichnungen sollten aufbewahrt werden. Die Leitung sollte die Ergebnisse den Personen berichten, die die unabhängigen Prüfungen durchführen (siehe 5.35), wenn in ihrem Verantwortungsbereich eine unabhängige Prüfung stattfindet.
+Korrekturmaßnahmen sollten je nach Risiko zeitnah durchgeführt werden. Wenn sie nicht bis zur nächsten geplanten Überprüfung abgeschlossen sind, sollten die Fortschritte zumindest bei dieser Überprüfung angesprochen werden.
+
+Weitere Informationen
+Die betriebliche Überwachung der Systemnutzung wird in 8.15, 8.16, 8.17 behandelt.","ISO/IEC 27002:2017-06","8.15;8.16;8.17"
+"37","5.37","Es sollten dokumentierte Verfahren für die betrieblichen Aktivitäten der Organisation im Zusammenhang mit der Informationssicherheit ausgearbeitet werden, z. B.:
+a) wenn die Tätigkeit von vielen Personen auf die gleiche Weise ausgeführt werden muss;
+b) wenn die Tätigkeit selten ausgeübt wird und das Verfahren bei der nächsten Ausführung wahrscheinlich vergessen wurde;
+c) wenn die Tätigkeit neu ist und ein Risiko darstellt, wenn sie nicht korrekt ausgeführt wird;
+d) vor der Übergabe der Tätigkeit an neues Personal.
+
+Die Betriebsverfahren sollten Folgendes festlegen:
+a) die verantwortlichen Personen;
+b) die sichere Installation und Konfiguration der Systeme;
+c) Verarbeitung von und Umgang mit Informationen (automatisiert und manuell);
+d) Sicherung (siehe 8.13) und Ausfallsicherheit;
+e) Anforderungen an die Zeitplanung, einschließlich der Abhängigkeiten von anderen Systemen;
+f) Anweisungen zur Behandlung von Fehlern oder anderen außergewöhnlichen Bedingungen [z. B. Einschränkungen bei der Verwendung von Hilfsprogrammen (siehe 8.18)], die während der Auftragsausführung auftreten können;
+g) Ansprechpartner für Support und Eskalation einschließlich externer Ansprechpartner für den Support bei unerwarteten betrieblichen oder technischen Schwierigkeiten;
+h) Anweisungen zur Handhabung von Speichermedien (siehe 7.10 und 7.14);
+i) Verfahren für System-Neustart und Wiederherstellung zur Nutzung bei einem Systemausfall;
+j) die Verwaltung von Prüfpfad- und Systemprotokolldaten (siehe 8.15 und 8.17) und Videoüberwachungssystemen (siehe 7.4);
+k) Überwachungsverfahren wie Kapazität, Leistung und Sicherheit (siehe 8.6 und 8.16);
+l) Wartungsvorschriften.
+Die dokumentierten Betriebsverfahren sollten überprüft und bei Bedarf aktualisiert werden. Änderungen an dokumentierten Betriebsverfahren sollten genehmigt werden. Informationssysteme sollten, sofern dies technisch durchführbar ist, zentral mittels derselben Verfahren, Werkzeuge und Dienstprogramme verwaltet werden.","ISO/IEC 27002:2017-06","8.13;8.18;7.10;7.14;8.15;8.17;7.4;8.6;8.16"
+"38","6.1","Eine Sicherheitsüberprüfung sollte für das gesamte Personal, einschließlich Vollzeit-, Teilzeit- und Zeitarbeitskräfte, durchgeführt werden. Wenn diese Personen über Dienstleistungsanbieter unter Vertrag genommen werden, sollten die Anforderungen an die Sicherheitsüberprüfung in die vertraglichen Vereinbarungen zwischen der Organisation und den Anbietern aufgenommen werden.
+Informationen über alle Bewerber, die für Positionen in der Organisation infrage kommen, sollten unter Berücksichtigung aller einschlägigen Gesetze der jeweiligen Rechtsordnung gesammelt und verarbeitet werden. In einigen Rechtsordnungen kann die Organisation gesetzlich verpflichtet sein, die Bewerber vorab über die Sicherheitsüberprüfungsmaßnahmen zu informieren.
+Verifizierungen sollten alle einschlägigen Rechtsvorschriften zum Schutz der Privatsphäre, zum Schutz personenbezogener Daten und zur Beschäftigung berücksichtigen und, sofern erlaubt, Folgendes einschließen:
+a) Vorhandensein zufriedenstellender Referenzen, (z. B. dienstliche und persönliche Zeugnisse);
+b) ein auf Vollständigkeit und Richtigkeit geprüfter Lebenslauf des Bewerbers;
+c) Bestätigung angegebener akademischer und beruflicher Qualifikationen;
+d) unabhängige Identitätsverifizierung (z. B. Reisepass oder ein anderes akzeptables, von den zuständigen Behörden ausgestelltes Dokument);
+e) detailliertere Nachweise, wie Bonitätsprüfung oder Überprüfung des Strafregisters, wenn der Bewerber eine kritische Rolle einnimmt.                                                                                          
+
+Wenn eine Person für eine bestimmte Rolle der Informationssicherheit angestellt wird, sollte die Organisation sicherstellen, dass der Bewerber:
+a) über die notwendige Kompetenz für die Sicherheitsaufgabe verfügt;
+b) über die erforderliche Vertrauenswürdigkeit verfügt, insbesondere wenn die Rolle von entscheidender Bedeutung für die Organisation ist.
+Falls eine ersteingestellte oder beförderte Person Zugang zu informationsverarbeitenden Einrichtungen hat, die insbesondere den Umgang mit vertraulichen Informationen (z. B. Finanzdaten, persönliche Daten oder Informationen aus dem Gesundheitswesen) beinhalten, sollte die Organisation weitere, eingehendere Überprüfungen in Betracht ziehen.
+Verfahren sollten Kriterien und Einschränkungen zur Überprüfung von Nachweisen definieren (z. B. wer berechtigt ist, Bewerber zu überprüfen und wie, wann und warum Nachweise überprüft werden).
+In Situationen, in denen die Verifizierung nicht rechtzeitig abgeschlossen werden kann, sollten abmildernde Maßnahmen ergriffen werden, bis die Überprüfung abgeschlossen ist, z. B.:
+a) verzögerte Einarbeitung;
+b) verzögerter Einsatz von Unternehmenswerten;
+c) Einarbeitung mit eingeschränktem Zugang;
+d) Beendigung der Beschäftigung.
+Die Verifizierungen sollten in regelmäßigen Abständen wiederholt werden, um die kontinuierliche Eignung des Personals zu bestätigen, je nachdem, von wie entscheidender Bedeutung die Rolle der betreffenden Person ist.","ISO/IEC 27002:2017-06",NA
+"39","6.2","Die Arbeitsvertragsklauseln für das Personal sollten die Informationssicherheitspolitik der Organisation und die einschlägigen themenspezifischen Richtlinien berücksichtigen. Zusätzlich können die folgenden Punkte geklärt und festgehalten werden:
+a) Vertraulichkeits- oder Geheimhaltungsvereinbarungen, die Mitarbeiter, die Zugang zu vertraulichen Informationen erhalten, unterzeichnen sollten, bevor sie Zugang zu Informationen und anderen damit verbundenen Werten erhalten (siehe 6.6);
+b) gesetzliche Verantwortlichkeiten und Rechte [z. B. in Bezug auf Urheberrechtsgesetze oder Datenschutzgesetze (siehe 5.32 und 5.34)];
+c) Verantwortungen für die Klassifizierung von Informationen und die Verwaltung der Informationen und anderen damit verbundenen Werte der Organisation, der Informationsverarbeitungseinrichtungen und der Informationsdienste, die vom Personal verarbeitet werden (siehe 5.9 bis 5.13);
+d) Verantwortlichkeiten für den Umgang mit Informationen, die von interessierten Parteien stammen;
+e) Schritte, die ergriffen werden müssen, wenn das Personal die Sicherheitsanforderungen der Organisation missachtet (siehe 6.4).
+Rollen und Verantwortlichkeiten der Informationssicherheit sollten Bewerbern im Laufe des Einstellungs-verfahrens mitgeteilt werden.
+Die Organisation sollte sicherstellen, dass das Personal den beschäftigungsverhältnisbezogenen Bestimmungen bezüglich der Informationssicherheit zustimmt. Diese Bestimmungen sollten der Art und dem Umfang des Zugangs zu organisationseigenen Werten im Zusammenhang mit Informationssystemen und -diensten angemessen sein. Die beschäftigungsverhältnisbezogenen Bestimmungen bezüglich der Informationssicherheit sollten überprüft werden, wenn sich Gesetze, Vorschriften, die Informationssicherheitspolitik oder themenspezifische Richtlinien ändern.
+Gegebenenfalls sollten Verantwortlichkeiten, die in den Beschäftigungsbedingungen angegeben sind, über die Beschäftigungsdauer hinaus für einen bestimmten Zeitraum gelten (siehe 6.5).
+
+Weitere Informationen
+Ein Verhaltenskodex kann verwendet werden, um die Verantwortlichkeiten des Personals für die Informationssicherheit in Bezug auf Geheimhaltung, Datenschutz, ethische Grundsätze, angemessene Nutzung der Informationen und anderen damit verbundenen Werte der Organisation sowie die von der Organisation erwarteten seriösen Praktiken festzulegen.
+Von einer externen Partei, mit der das Personal des Lieferanten assoziiert ist, kann verlangt werden, vertragliche Vereinbarungen im Namen der unter Vertrag genommenen Person einzugehen.
+Handelt es sich bei der Organisation nicht um eine juristische Person und hat sie keine Angestellten, können die vertraglichen Vereinbarungen und Bestimmungen als gleichwertig mit der Anleitung zu dieser Maßnahme betrachtet werden.","ISO/IEC 27002:2017-06","6.6;5.32;5.34;5.9;5.13;6.4;6.5"
+"40","6.3","Ein Sensibilisierungs-, Ausbildungs- und Schulungsprogramm zur Informationssicherheit sollte in Einklang mit der Informationssicherheitspolitik der Organisation, den themenspezifischen Richtlinien und den zutreffenden Verfahren zur Informationssicherheit unter Berücksichtigung der zu schützenden Informationen der Organisation und der schon bestehenden Informationssicherheitsmaßnahmen zum Schutz der Informationen festgelegt werden.
+Die Sensibilisierung, Ausbildung und Schulung zur Informationssicherheit sollten regelmäßig stattfinden. Die erste Sensibilisierung, Ausbildung und Schulung kann für neue Mitarbeiter und für Mitarbeiter gelten, die in neue Positionen oder Rollen mit wesentlich anderen Anforderungen an die Informationssicherheit wechseln.
+Das Verständnis des Personals sollte am Ende einer Sensibilisierungs-, Ausbildungs- oder Schulungsmaßnahme beurteilt werden, um den Wissenstransfer und die Wirksamkeit des Sensibilisierungs-, Ausbildungs- und Schulungsprogramms zu prüfen.
+
+Bewusstsein
+Ein Sensibilisierungsprogramm zur Informationssicherheit sollte darauf abzielen, dass sich das Personal seiner Verantwortung für die Informationssicherheit und der Art und Weise, wie diesen Verantwortungen entsprochen wird, bewusst wird.
+Das Sensibilisierungsprogramm sollte unter Berücksichtigung der Rollen des Personals in der Organisation, einschließlich des internen und externen Personals (z. B. externe Berater, Lieferantenpersonal), geplant werden. Maßnahmen des Sensibilisierungsprogramms sollten vorher zeitlich und vorzugsweise regelmäßig eingeplant werden, damit diese Maßnahmen wiederholt werden und auch neues Personal erfasst wird. Es sollte auch auf den Erkenntnissen aus Vorfällen im Bereich der Informationssicherheit aufbauen.                                      
+Das Sensibilisierungsprogramm sollte eine Reihe von Sensibilisierungsmaßnahmen über geeignete physische oder virtuelle Kanäle umfassen, z. B. Kampagnen, Broschüren, Poster, Newsletter, Websites, Informationsveranstaltungen, Briefings, E-Learning-Module und E-Mails.
+Das Bewusstsein für die Informationssicherheit sollte auch generelle Aspekte enthalten wie:
+a) Verpflichtung der Leitung zu Informationssicherheit in der gesamten Organisation;
+b) Vertrautheit mit den geltenden Vorschriften und Verpflichtungen im Bereich der Informationssicherheit und deren Einhaltung unter Berücksichtigung der Informationssicherheitspolitik und themen-spezifischen Richtlinien, Normen, Gesetze, Statuten, Vorschriften, Verträge und Vereinbarungen;
+c) persönliche Verantwortung für eigene Handlungen und Unterlassungen sowie allgemeine Verantwortlichkeiten zur Sicherung oder zum Schutz von Informationen, die der Organisation und interessierten Parteien gehören;
+d) grundsätzliche Verfahren zur Informationssicherheit [z. B. Meldung von Informationssicherheits-ereignissen (6.8)] und grundlegende Sicherheitsmaßnahmen [z. B. Kennwortsicherheit (5.17)];
+e) Anlaufstellen und Ressourcen für zusätzliche Informationen und Empfehlungen zu Fragen der Informationssicherheit, einschließlich weiterer Sensibilisierungsunterlagen zur Informationssicherheit.
+
+Aus- und Weiterbildung
+Die Organisation sollte einen geeigneten Schulungsplan für technische Teams, deren Aufgaben besondere Fähigkeiten und Fachkenntnisse erfordern, ermitteln, ausarbeiten und umsetzen. Technische Teams sollten über die Fähigkeiten verfügen, das erforderliche Sicherheitsniveau für Geräte, Systeme, Anwendungen und Dienste zu konfigurieren und aufrechtzuerhalten. Wenn es an Fähigkeiten mangelt, sollte die Organisation Maßnahmen ergreifen und diese erwerben.
+Für das Aus- und Weiterbildungsprogramm sollten verschiedene Formen in Betracht gezogen werden [z. B. Lehrveranstaltungen oder Selbststudium, Betreuung durch Fachpersonal oder Berater (Ausbildung am Arbeitsplatz), Rotation des Personals für verschiedene Tätigkeiten, Einstellung bereits ausgebildeter Mitarbeiter und Einstellung von Beratern]. Dabei können verschiedene Formen der Vermittlung zum Einsatz kommen, darunter Klassenunterricht, Fernunterricht, internetbasiertes Lernen, Selbststudium und andere. Das technische Personal sollte sein Wissen auf dem neuesten Stand halten, indem es Newsletter und Zeitschriften abonniert oder an Konferenzen und Veranstaltungen teilnimmt, die der technischen und beruflichen Weiterbildung dienen.
+
+Weitere Informationen
+Bei der Ausarbeitung eines Sensibilisierungsprogramms ist wichtig, nicht nur das „Was“ und „Wie“, sondern auch, wenn möglich, das „Warum“ anzusprechen. Es ist wichtig, dass das Personal das Ziel der Informationssicherheit und die möglichen positiven und negativen Auswirkungen seines Verhaltens auf die Organisation versteht.
+Sensibilisierung, Ausbildung und Schulung im Bereich der Informationssicherheit können Teil anderer Aktivitäten sein oder in Zusammenarbeit mit diesen durchgeführt werden, z. B. allgemeine Schulungen in den Bereichen Informationsmanagement, IKT, Schutz, Datenschutz oder Sicherheit.","ISO/IEC 27002:2017-06","6.8;5.17"
+"41","6.4","Ein Maßregelungsprozess sollte nicht ohne vorherige Prüfung eingeleitet werden, ob tatsächlich eine Verletzung der Informationssicherheitspolitik aufgetreten ist (siehe 5.28).
+Der formale Maßregelungsprozess sollte eine abgestufte Reaktion vorsehen, die Faktoren wie z. B. die folgenden berücksichtigt:
+a) die Art (wer, was, wann, wie) und die Schwere des Verstoßes und dessen Folgen;
+b) ob die Zuwiderhandlung vorsätzlich (böswillig) oder unabsichtlich (versehentlich) begangen wurde;
+c) unabhängig davon, ob es sich um ein erstes oder wiederholtes Vergehen handelt;
+d) ob die beschuldigte Person geeignet geschult war oder nicht.
+Die Reaktion sollte die einschlägigen juristischen, gesetzlichen, regulatorischen, vertraglichen und geschäftlichen Anforderungen sowie je nach Bedarf andere Faktoren berücksichtigen. Ein Maßregelungs-prozess sollte auch als Abschreckung dienen, um das Personal und andere interessierte Parteien davon abzuhalten, gegen die Informationssicherheitspolitik, themenspezifische Richtlinien und Verfahren für die Informationssicherheit zu verstoßen. Vorsätzliche Verletzungen der Informationssicherheitspolitik können sofortiges Handeln erfordern.
+
+Weitere Informationen
+Soweit möglich, sollte die Identität von Personen, gegen die Disziplinarmaßnahmen ergriffen werden, im Einklang mit den geltenden Anforderungen geschützt werden.
+Wenn Einzelpersonen ein hervorragendes Verhalten in Bezug auf die Informationssicherheit an den Tag legen, können sie belohnt werden, um die Informationssicherheit zu fördern und gutes Verhalten zu unterstützen.","ISO/IEC 27002:2017-06","5.28"
+"42","6.5","Das Verfahren für den Umgang mit der Beendigung oder Änderung des Beschäftigungsverhältnisses sollte festlegen, welche Verantwortlichkeiten und Pflichten im Bereich der Informationssicherheit nach der Beendigung oder Änderung bestehen bleiben sollten. Dies kann die Vertraulichkeit von Informationen, geistigem Eigentum und sonstigem erlangtem Wissen sowie die in anderen Vertraulichkeitsvereinbarungen enthaltenen Pflichten umfassen (siehe 6.6). Die nach Beendigung des Beschäftigungsverhältnisses oder des Vertrags weiterhin geltenden Verantwortlichkeiten und Pflichten sollten in den Beschäftigungsbedingungen (siehe 6.2), dem Vertrag oder der Vereinbarung der betreffenden Person beschrieben werden. Auch andere Verträge oder Vereinbarungen, die für einen bestimmten Zeitraum nach Beendigung des Beschäftigungsverhältnisses der betreffenden Person weiterbestehen, können Verantwortlichkeiten für die Informationssicherheit enthalten.
+Änderungen der Verantwortung oder des Beschäftigungsverhältnisses sollten als Beendigung der aktuellen Verantwortung oder des Beschäftigungsverhältnisses in Verbindung mit dem Beginn der neuen Verantwortung oder des neuen Beschäftigungsverhältnisses gehandhabt werden.
+Die Rollen und Verantwortlichkeiten im Bereich der Informationssicherheit, die eine Person innehat, die ihre Arbeitsaufgaben niederlegt oder wechselt, sollten ermittelt und auf eine andere Person übertragen werden.
+Es sollte ein Verfahren für die Mitteilung der Änderungen und der Betriebsverfahren an das Personal, andere interessierte Parteien und relevante Ansprechpartner (z. B. Kunden und Lieferanten) eingerichtet werden.
+Das Verfahren für die Beendigung oder Änderung des Beschäftigungsverhältnisses sollte auch auf externes Personal (d. h. Lieferanten) angewandt werden, wenn es zur Kündigung von Personal, des Vertrags oder des Beschäftigungsverhältnisses mit der Organisation kommt oder wenn es einen Wechsel des Arbeitsplatzes innerhalb der Organisation gibt.                                    
+
+Weitere Informationen
+In vielen Organisationen ist die Personalabteilung im Allgemeinen zuständig für den gesamten Beendigungsprozess und arbeitet mit dem Vorgesetzten der wechselnden Person zusammen, um Aspekte der Informationssicherheit im Zusammenhang mit den entsprechenden Verfahren zu regeln. Falls Personal durch eine externe Partei (z. B. über einen Lieferanten) bereitgestellt wurde, wird dieser Beendigungsprozess von der externen Partei entsprechend dem Vertrag zwischen der Organisation und der externen Partei ausgeführt.","ISO/IEC 27002:2017-06","6.2;6.6"
+"43","6.6","In den Vertraulichkeits- oder Geheimhaltungsvereinbarungen sollte unter Verwendung rechtsverbindlicher Begriffe auf die Anforderungen zum Schutz vertraulicher Informationen eingegangen werden. Die Vertraulichkeits- oder Geheimhaltungsvereinbarungen sind auf interessierte Parteien oder das Personal der Organisation anwendbar. Ausgehend von den Anforderungen einer Organisation an die Informationssicherheit sollten die Bedingungen in den Vereinbarungen unter Berücksichtigung der Art der zu verarbeitenden Informationen, ihrer Klassifizierungsstufe, ihrer Verwendung und des zulässigen Zugriffs durch die andere Partei festgelegt werden. Zur Feststellung der Anforderungen an Vertraulichkeits- oder Geheimhaltungsvereinbarungen sollten die folgenden Elemente in Betracht gezogen werden:
+a) Definition der zu schützenden Informationen (z. B. vertrauliche Informationen);
+b) die voraussichtliche Dauer einer Vereinbarung, einschließlich Fällen, in denen es notwendig sein kann, die Vertraulichkeit auf unbestimmte Zeit oder bis zur öffentlichen Verfügbarkeit der Informationen aufrechtzuerhalten;
+c) die erforderlichen Schritte bei Beendigung einer Vereinbarung;
+d) die Pflichten und Handlungen der Unterzeichner zur Vermeidung einer unbefugten Offenlegung von Informationen;
+e) die Eigentümerschaft an Informationen, Geschäftsgeheimnissen und geistigem Eigentum und Zusammenhang mit dem Schutz der vertraulichen Informationen;                                                                    
+f) die gestattete Nutzung vertraulicher Informationen und die Rechte des Unterzeichnenden zur Nutzung der Informationen;
+g) das Recht zur Überprüfung und Überwachung von Aktivitäten, die vertrauliche Informationen berühren, wenn es sich um hochsensible Umstände handelt;
+h) das Verfahren zur Benachrichtigung und Berichterstattung über unbefugte Offenlegung oder Verlust vertraulicher Informationen;
+i) die Bestimmungen zur Rückgabe bzw. Vernichtung von Informationen bei Beendigung der Vereinbarung;
+j) die erwarteten Schritte, die im Falle einer Nichteinhaltung der Vereinbarung zu ergreifen sind.
+Die Organisation sollte die Einhaltung von Vertraulichkeits- und Geheimhaltungsvereinbarungen in dem Land, für das sie gelten, berücksichtigen (siehe 5.31, 5.32, 5.33, 5.34).
+Die Anforderungen an Vertraulichkeits- oder Geheimhaltungsvereinbarungen sollten regelmäßig sowie bei sie betreffenden Veränderungen überprüft werden.
+
+Weitere Informationen
+Vertraulichkeits- oder Geheimhaltungsvereinbarungen sorgen dafür, dass die Daten der Organisation geschützt sind und die Unterzeichnenden über ihre Pflichten bezüglich des Schutzes, der Nutzung und der verantwortungsvollen und ihren Befugnissen entsprechenden Offenlegung von Informationen unterrichtet werden.","ISO/IEC 27002:2017-06","5.31;5.32;5.33;5.34"
+"44","6.7","Remote-Arbeit liegt immer dann vor, wenn Mitarbeiter der Organisation von einem Ort außerhalb des Firmengeländes aus arbeiten und dabei auf Informationen in Papierform oder elektronisch über IKT-Ausrüstung zugreifen. Zu den Remote-Arbeitsplätzen gehören die Begriffe „Telearbeit“, „Telecommuting“, „flexibler Arbeitsplatz“, „virtuelle Arbeitsumgebung“ und „Fernwartung“.
+ANMERKUNG Es ist möglich, dass aufgrund lokaler Gesetze und Vorschriften in verschiedenen Ländern nicht alle Empfehlungen in dieser Anleitung angewendet werden können.
+Organisationen, die Remote-Arbeit zulassen, sollten eine themenspezifische Richtlinie für Remote-Arbeiten erstellen, in der die entsprechenden Bedingungen und Einschränkungen festgelegt sind. Soweit erforderlich, sollten folgende Themen berücksichtigt werden:
+a) die bestehende oder vorgeschlagene physische Sicherheit des Remote-Arbeitsplatzes unter Berücksichtigung der physischen Sicherheit des Standorts und der örtlichen Umgebung, einschließlich der verschiedenen Rechtsordnungen, in denen sich das Personal befindet;
+b) Regeln und Sicherheitsmechanismen für die physische Umgebung des Remote-Arbeitsplatzes, wie z. B. abschließbare Aktenschränke, sicherer Transport zwischen den Standorten und Regeln für den Fernzugriff, aufgeräumte Arbeitsumgebung, Ausdrucken und Entsorgung von Informationen und anderen damit verbundenen Werten sowie Meldung von Informationssicherheitsereignissen (siehe 6.8);
+c) die zu erwartenden physischen Umgebungen von Remote-Arbeitsplätzen;
+d) die Sicherheitsanforderungen an die Kommunikation, unter Berücksichtigung des notwendigen Fernzugriffs auf organisationseigene Systeme, die Sensibilität der Informationen, auf die zugegriffen wird und die über Telekommunikationsverbindungen weitergegeben werden, sowie die Empfindlichkeit der Systeme und Anwendungen;
+e) die Nutzung des Fernzugriffs, z. B. des virtuellen Desktop-Zugriffs, der die Verarbeitung und Speicherung von Informationen auf privaten Geräten unterstützt;
+f) die Gefahr des unbefugten Zugriffs auf Informationen oder Ressourcen durch andere Personen am Remote-Arbeitsplatz, (z. B. Familie und Freunde);
+g) die Gefahr des unbefugten Zugriffs auf Informationen oder Ressourcen durch andere Personen an öffentlichen Orten;
+h) die Verwendung von Heimnetzwerken und öffentlichen Netzen sowie Anforderungen und Beschränkungen der Konfiguration von drahtlosen Netzwerkdiensten;
+i) Einsatz von Sicherheitsmaßnahmen wie Firewalls und Schutz vor Schadsoftware;
+j) sichere Mechanismen für die Bereitstellung und Initialisierung von Systemen aus der Ferne;
+k) sichere Mechanismen für die Authentisierung und Freigabe von Zugriffsrechten unter Berücksichtigung der Anfälligkeit von Ein-Faktor-Authentisierungsmechanismen, wenn der Fernzugriff auf das Netzwerk der Organisation erlaubt ist.
+Die zu berücksichtigenden Leitlinien und Maßnahmen sollten Folgendes enthalten:
+a) die Bereitstellung geeigneter Ausrüstung und Aufbewahrungsmöbel für Remote-Arbeitstätigkeiten, sofern der Einsatz von privaten, nicht unter der Aufsicht der Organisation stehenden Geräten untersagt ist;
+b) die Festlegung gestatteter Arbeit, die Klassifizierung der Informationen, die aufbewahrt werden können, und die internen Systeme und Dienste, auf die der remote Arbeitende berechtigten Zugriff hat;
+c) die Bereitstellung von Schulungsmaßnahmen für die Mitarbeiter, die remote arbeiten, und für diejenigen, die sie unterstützen. Dazu gehört auch, wie man bei der Remote-Arbeit sicher seiner Geschäftstätigkeit nachgeht;
+d) die Bereitstellung geeigneter Kommunikationsgeräte, einschließlich Verfahren zur Sicherung des Fernzugriffs, z. B. Anforderungen an Bildschirmsperren und Inaktivitätstimer; das Ermöglichen der Geräteortung; die Einrichtung von Fernlöschfunktionen;
+e) physische Sicherheit;
+f) Regeln und Leitfäden für den Zugang von Familie und Besuchern zu Geräten und Informationen;
+g) die Bereitstellung von Hardware- und Software-Support und Wartung;
+h) Bereitstellung von Versicherungen;
+i) Verfahren für Backups und Business-Continuity;
+j) Auditierung und Überwachung der Sicherheit;
+k) Widerruf von Befugnissen und Zugriffsrechten sowie die Rückgabe von Geräten, wenn die Remote-Arbeitstätigkeiten beendet sind.","ISO/IEC 27002:2017-06","6.8"
+"45","6.8","Alle Mitarbeiter und Benutzer sollten auf ihre Verantwortung hingewiesen werden, Informations-sicherheitsereignisse so schnell wie möglich zu melden, um die Auswirkungen von Vorfällen im Bereich der Informationssicherheit zu verhindern oder zu minimieren. Sie sollten das Verfahren zur Meldung über Informationssicherheitsereignisse sowie den Ansprechpartner kennen, dem die Ereignisse zu berichten sind. Der Meldevorgang sollte so einfach, zugänglich und verfügbar wie möglich gehalten werden. Zu den Informationssicherheitsereignissen gehören Vorfälle, Verstöße und Schwachstellen.
+Zu den Situationen, die bei der Meldung über Informationssicherheitsereignisse zu berücksichtigen sind, zählen:
+a) ineffektive Maßnahmen zur Informationssicherheit;
+b) Verstöße gegen die erwartete Vertraulichkeit, Integrität oder Verfügbarkeit von Informationen;
+c) menschliches Versagen;
+d) Nichteinhaltung der Informationssicherheitspolitik, themenspezifischer Richtlinien oder anwendbarer Normen;
+e) Verstöße gegen physische Sicherheitsmaßnahmen;
+f) Systemänderungen, die nicht den Änderungsmanagementprozess durchlaufen haben;
+g) Fehlfunktionen oder anderes anormales Systemverhalten von Software oder Hardware;
+h) Zugangsverstöße;
+i) Schwachstellen;
+j) vermutete Infektion durch Schadsoftware.
+Mitarbeitern und Benutzern sollte davon abgeraten werden, den Versuch zu unternehmen, vermutete Informationssicherheitsschwachstellen nachzuweisen. Das Austesten von Schwachstellen kann als potentieller Missbrauch des Systems interpretiert werden und zudem zu Schäden am Informationssystem oder -dienst führen sowie digitales Beweismaterial beschädigen oder unkenntlich machen. Letztendlich kann dies eine rechtliche Haftung der ausführenden Person nach sich ziehen.
+
+Weitere Informationen
+Zusätzliche Informationen siehe Normenreihe ISO/IEC 27035.","ISO/IEC 27002:2017-06",NA
